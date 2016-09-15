@@ -1,0 +1,723 @@
+/**
+ * ==================================================================================================
+ * STYLES.CSS
+ * ==================================================================================================
+ * Author: Kaitlin Kidd
+ * Date: 09.15.16
+ * Version: 0.0.1
+ * Purpose: Main styles for website.
+ * Notes: 
+ * --- PX to EM calculator: http://pxtoem.com/ (base of 16px)
+ * --- Social Media overrides: http://inbound.org/discussion/view/customizing-follow-me-and-social-
+ *     sharing-module-icons-with-css
+ * --- W3C CSS Validation: http://jigsaw.w3.org/css-validator/#validate_by_uri
+ * 
+ * --------------------------------------------------------------------------------------------------
+ * Revision History
+ * --------------------------------------------------------------------------------------------------
+ * Date          Revision Description                                                     Modified By
+ * --------------------------------------------------------------------------------------------------
+ * 09.15.2016 - Created Original Document                                                         KAK
+ * ==================================================================================================
+ * 
+ * - Contents -  
+ * 00. Defaults
+ * 01. Hero
+ * 02. Dividers
+ * 03. Experience
+ * 04. Skills
+ * 05. Projects
+ * 06. About Me
+ * 07. Contact
+ * 08. Footer
+ * 09. Plugins
+ * 10. Scroller
+ * 
+ */
+
+/*************************
+ * 00. Defaults
+ *************************/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #d8dbe2; /* rgba(216, 219, 226, 1.0) */
+    font: normal 1em/1.45 'Varela Round', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    color: #58585a;
+}
+
+header {
+    margin: 50px;
+}
+
+hr {
+    border: 0;
+    border-top: 5px solid #58585a;
+    width: 10%;
+}
+
+.hr-icon {
+    border: 0;
+    border-top: 5px solid #58585a;
+    width: 7%;
+}
+
+.title {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #58585a;
+}
+
+/*************************
+ * 01. Hero
+ *************************/
+
+#hero {
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+}
+
+#heroSubtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    color: #6f7983;
+}
+
+#heroLogo {
+    width: 20%;
+}
+
+#heroButtons {
+    margin-top: -40px;
+}
+
+#heroScroll {
+    padding-top: 10px;
+}
+
+#resumeBtn { 
+    background: #58a4b0;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 60px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 15px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
+    -moz-box-shadow: 0px 3px 0px 0px #4f939e;
+    box-shadow: 0px 3px 0px 0px #4f939e;     
+}
+
+#resumeBtn:hover { 
+    text-decoration: none;
+    background: #8abfc7;
+    color: #fff;
+}
+
+#githubBtn { 
+    background: #373f51;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 60px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 15px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 0px 0px #262c38;
+    -moz-box-shadow: 0px 3px 0px 0px #262c38;
+    box-shadow: 0px 3px 0px 0px #262c38;    
+}
+
+#githubBtn:hover { 
+    text-decoration: none;
+    background: #5e6573;
+    color: #fff;
+}
+
+#linkedinBtn { 
+    background: #daa49a;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 60px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 15px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
+    -moz-box-shadow: 0px 3px 0px 0px #ae837b;
+    box-shadow: 0px 3px 0px 0px #ae837b;        
+}
+
+#linkedinBtn:hover { 
+    text-decoration: none;
+    background: #e1b6ae;
+    color: #fff;
+}
+
+#downArrow { 
+    background: #a1a9b0;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 50px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42857143; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 0px 0px #80878c;
+    -moz-box-shadow: 0px 3px 0px 0px #80878c;
+    box-shadow: 0px 3px 0px 0px #80878c;     
+}
+
+#downArrow:hover { 
+    text-decoration: none;
+    background: #b3babf;
+    color: #fff;
+}
+
+#downArrow:visited {
+    color: #fff;
+}
+
+/*************************
+ * 02. Dividers
+ *************************/
+
+#dividerOne {
+    height: auto;
+    min-height: 500px;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero2.jpg") center no-repeat fixed;
+}
+
+#dividerTwo {
+    height: auto;
+    min-height: 500px;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero3.jpg") center no-repeat fixed;
+}
+
+#dividerThree {
+    height: auto;
+    min-height: 500px;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero.jpg") center no-repeat fixed;
+}
+
+#dividerFour {
+    height: auto;
+    min-height: 500px;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero4.jpg") center no-repeat fixed;
+}
+
+#dividerFive {
+    height: auto;
+    min-height: 500px;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero5.png") center no-repeat fixed;
+}
+
+.divider-title { 
+    margin: 175px auto; 
+    color: #fff;
+}
+
+/*************************
+ * 03. Experience
+ *************************/
+
+#experience {
+    height: auto;
+    min-height: 530px;
+    padding: 50px;
+}
+
+#jpmIcon { 
+    color: #373f51;
+    text-align: center;
+}
+
+#ldIcon { 
+    color: #58a4b0;
+    text-align: center;
+}
+
+#usfIcon { 
+    color: #daa49a;
+    text-align: center;
+}
+
+#rjIcon { 
+    color: #a1a9b0;
+    text-align: center;
+}
+
+.experience-item {
+    color: #58585a;
+    height: 100%;
+    min-height: 300px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.company { 
+    text-align: center;
+}
+
+.position { 
+    text-align: center; 
+    font-style: italic;
+}
+
+.location { 
+    text-align: center;
+}
+
+.marker { 
+    text-align: center;
+    color: #58585a;
+}
+
+/*************************
+ * 04. Skills
+ *************************/
+
+#skills {
+    height: auto;
+    min-height: 530px;
+    padding: 50px;
+}
+
+#skillSetOne { 
+    color: #373f51;
+    text-align: center;
+}
+
+#skillSetTwo { 
+    color: #58a4b0;
+    text-align: center;
+}
+
+#skillSetThree { 
+    color: #daa49a;
+    text-align: center;
+}
+
+canvas {
+    width: 100% !important;
+    max-width: 300px;
+    height: auto !important;
+}
+
+/*************************
+ * 05. Projects
+ *************************/
+
+#projects {
+    height: auto;
+    min-height: 550px;
+    padding: 50px;
+}
+
+#overlay {  
+    background:rgba(55,63,81,.75);
+    text-align:center;
+    padding:45px 0 66px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+}
+
+#view {  
+    font-family:Helvetica;
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:56px;
+}
+
+#project1 { 
+    border: 3px solid #a1a9b0;
+    background: url("../images/usf-ori.png");
+    background-size: 370px 190px;
+}
+
+#project1:hover #overlay {
+    opacity:1;
+}
+
+#project2 { 
+    border: 3px solid #a1a9b0;
+    background: url("../images/code4good.png");
+    background-size: 400px 190px;
+}
+
+#project2:hover #overlay {
+    opacity:1;
+}
+
+#project3 { 
+    border: 3px solid #a1a9b0;
+    background: url("../images/portfolio.png");
+    background-size: 380px 190px;
+}
+
+#project3:hover #overlay {
+    opacity:1;
+}
+
+#showAllBtn { 
+    text-decoration: none;
+    background: #a1a9b0;
+    padding: 20px 40px;
+    margin: 60px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 0px 0px #80878c;
+    -moz-box-shadow: 0px 3px 0px 0px #80878c;
+    box-shadow: 0px 3px 0px 0px #80878c;       
+}
+
+#showAllBtn:hover { 
+    text-decoration: none;
+    background: #b3babf;
+    color: #fff;
+}
+
+/*************************
+ * 06. About Me
+ *************************/
+
+
+#aboutMe {
+    height: auto;
+    min-height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#greetingOne { 
+    padding-top: 20px;
+}
+
+#greetingTwo { 
+    padding-top: 40px;
+}
+
+#headshot { 
+    width: 80%;
+}
+
+/*************************
+ * 07. Contact
+ *************************/
+
+#contact {
+    height: auto;
+    min-height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#locationIcon { 
+    color: #373f51;
+    text-align: center;
+}
+
+#emailIcon { 
+    color: #58a4b0;
+    text-align: center;
+}
+
+#phoneIcon { 
+    color: #daa49a;
+    text-align: center;
+}
+
+#emailLink { 
+    text-decoration: none; 
+    color: #58585a;
+}
+
+.contact-item {
+    color: #58585a;
+    padding: 25px;
+    height: 100%;
+    min-height: 250px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.contact-info { 
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-tag { 
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/*************************
+ * 08. Footer
+ *************************/
+
+footer a { 
+    color: #a1a9b0; 
+}
+
+footer { 
+    background-color: #373f51; 
+    padding: 40px 0 30px; 
+}
+
+footer p { 
+    color: #fff; 
+}
+
+.copyright { 
+    text-align: left; 
+    color: #a1a9b0;
+}
+
+.social { 
+    text-align: right; 
+}
+
+.social-icons { 
+    color: #a1a9b0; 
+    margin-right: 20px;
+}
+
+/*************************
+ * 09. Plugins
+ *************************/
+
+/* Way Points */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 {
+    visibility: hidden;
+}
+
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight {
+    visibility: visible;
+}
+
+.delay-10s {
+    animation-delay: 0.10s;
+    -webkit-animation-delay: 0.10s;
+}
+.delay-05s {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+.delay-1s {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.animation-elements{
+    opacity: 0;
+}
+
+.animation-elements-two{
+    opacity: 0;
+}
+
+/* Filters */
+.projects-filter{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+.projects-filter a{
+    margin: auto 10px;
+    color: #131313;
+    font-size: 14px;
+    padding-bottom: 13px;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+.projects-filter a:hover{
+    text-decoration: none;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.info_content{
+    padding: 5px 0;
+}
+
+.item-work img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.item-work .hover{
+    position: relative;
+    overflow: hidden;
+}
+.item-work .info-work{
+    font-size: 14px;
+    padding: 10px 5px;
+    background: #fff;
+    border:solid 1px #cdcdcd;
+    border-top: 0;
+    text-align: center;
+}
+.item-work .info-work h4{
+    padding: 0;
+    font-weight: 300;
+}
+.item-work .info-work p{
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.item-work .info-work .icons-work{
+    display: inline;
+    padding: 12px 20px;
+}
+.item-work  .info-work i{
+    padding: 0 5px;
+    color: #131313;
+    font-size: 16px;
+}
+.item-work  .info-work i:hover{
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+.item-work:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+.projects-container .item-work{
+    margin-bottom: 30px;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+/*************************
+ * 10. Scroller
+ *************************/
+
+#scroll {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    background-color: #a1a9b0;
+    cursor: pointer;
+    display: none;
+    text-indent: -9999px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+}
+
+#scroll span {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+    background-color: #b3babf;
+    opacity: 1;
+    /* 
+    filter: "alpha(opacity=100)";
+    -ms-filter :"alpha(opacity=100)";
+    */ 
+}
