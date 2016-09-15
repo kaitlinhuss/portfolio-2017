@@ -20,3 +20,8 @@ This is my first portfolio website.
 * [JQuery Waypoints](http://imakewebthings.com/waypoints/) - v2.0.3
 * [Smooth Scrolling](https://css-tricks.com/snippets/jquery/smooth-scrolling/) - CSS-Tricks
 * [Back to Top](http://www.codexworld.com/back-to-top-button-using-jquery-css/) - CodexWorld
+
+## **PENDING** ##
+
+* Remove animations for mobile devices. 
+* Improve responsive images.
