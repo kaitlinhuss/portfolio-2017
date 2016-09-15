@@ -1,7 +1,10 @@
 # **WELCOME.** #
 
 This is my first portfolio website. 
-http://kiddography.com/
+
+* Last modified: September 15th, 2016.
+* URL: http://kiddography.com/
+
 
 ## **SOURCES** ##
 
