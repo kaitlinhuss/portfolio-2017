@@ -294,6 +294,18 @@
             font-size: 1em; /* */
         }
         
+        #skillsWeb { 
+            animation-delay: 0s;
+        }
+
+        #skillsDev { 
+            animation-delay: 0s;
+        }
+
+        #skillsManagement { 
+            animation-delay: 0s;
+        }
+        
         /*************************
         * 05. Projects
         *************************/
@@ -331,6 +343,10 @@
             padding-right: 0px;
         }
         
+        .project-item { 
+            animation-delay: 0s;
+        }
+        
         /*************************
          * 06. About Me
          *************************/
@@ -347,6 +363,18 @@
         #greetingTwo { 
             padding-top: 5px;
             font-size: 20px; /* */
+        }
+        
+        #bio { 
+            animation-delay: 0s;
+        }
+
+        #pic { 
+            animation-delay: 0s;
+        }
+
+        #update { 
+            animation-delay: 0s;
         }
         
         /*************************
@@ -386,6 +414,18 @@
             color: #daa49a;
             text-align: center;
             font-size: 1em; /* */
+        }
+        
+        #location { 
+            animation-delay: 0s;
+        }
+
+        #email { 
+            animation-delay: 0s;
+        }
+
+        #phone { 
+            animation-delay: 0s;
         }
         
         /*************************
@@ -433,21 +473,7 @@
             background-size: 250px 220px; /* */
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
         
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
     }
 
     /* ------------------------------------------------------------------------- */
@@ -634,21 +660,6 @@
             font-size: 1.5em; /* +0.5 */ 
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
-        
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
         
         /*************************
         * 04. Skills
@@ -809,21 +820,6 @@
             background-size: 300px 220px; /* */
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
-        
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
     }
     
     /* ------------------------------------------------------------------------- */
@@ -993,21 +989,7 @@
             font-size: 12px; /* +1 */  
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
         
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
         
 
         /*************************
@@ -1270,21 +1252,7 @@
             font-size: 12px; /* +1 */  
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
         
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
 
         /*************************
         * 05. Projects
@@ -1594,21 +1562,7 @@
             font-size: 1.5em; /* */
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
         
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
         
         /*************************
         * 04. Skills
@@ -1823,21 +1777,7 @@
             background-size: 380px 220px;
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
-        
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
+    
     }
 
     /* ------------------------------------------------------------------------- */
@@ -2050,21 +1990,7 @@
             font-size: 1.5em;
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
-        
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
+       
         
         /*************************
         * 04. Skills
@@ -2233,21 +2159,6 @@
             padding-right: 100px;
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
-        
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
 
     }
         
@@ -2461,21 +2372,7 @@
             font-size: 2em; /* */
         }
         
-        #jpm { 
-            animation-delay: 0s;
-        }
         
-        #ld { 
-            animation-delay: 0s;
-        }
-        
-        #usf { 
-            animation-delay: 0s;
-        }
-        
-        #rj { 
-            animation-delay: 0s;
-        }
         
         /*************************
         * 04. Skills
@@ -2868,7 +2765,19 @@
             text-align: center;
             font-size: 2em; /* */
         }
+        
+        #skillsWeb { 
+            animation-delay: 0.5s;
+        }
 
+        #skillsDev { 
+            animation-delay: 1s;
+        }
+
+        #skillsManagement { 
+            animation-delay: 1.5s;
+        }
+        
         /*************************
         * 05. Projects
         *************************/
@@ -2911,6 +2820,10 @@
             font-size: 16px;
         }
         
+        .project-item { 
+            animation-delay: 0.5s;
+        }
+        
         /*************************
         * 06. About Me
         *************************/
@@ -2940,6 +2853,18 @@
         
         #headshot { 
             width: 30%;
+        }
+        
+        #bio { 
+            animation-delay: 0.5s;
+        }
+
+        #pic { 
+            animation-delay: 1s;
+        }
+
+        #update { 
+            animation-delay: 1.5s;
         }
         
         /*************************
@@ -2978,6 +2903,18 @@
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
+        }
+        
+        #location { 
+            animation-delay: 0.5s;
+        }
+
+        #email { 
+            animation-delay: 1s;
+        }
+
+        #phone { 
+            animation-delay: 1.5s;
         }
         
         /*************************
@@ -3979,22 +3916,6 @@
             font-size: 12px;
         }
         
-        #jpm { 
-            animation-delay: 0.5s;
-        }
-        
-        #ld { 
-            animation-delay: 1s;
-        }
-        
-        #usf { 
-            animation-delay: 1.5s;
-        }
-        
-        #rj { 
-            animation-delay: 2s;
-        }
-        
         /*************************
         * 04. Skills
         *************************/
@@ -4030,6 +3951,8 @@
             color: #daa49a;
             text-align: center;
         }
+        
+        
         
         /*************************
         * 05. Projects

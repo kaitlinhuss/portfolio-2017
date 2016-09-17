@@ -126,7 +126,6 @@ $(document).ready(function() {
      * Source: Animate.css - https://daneden.github.io/animate.css/
      */
     $(window).scroll(function() {
-
         $('.animation-elements-three').each(function(){
             var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
