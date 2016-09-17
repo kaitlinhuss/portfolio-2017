@@ -262,9 +262,17 @@ hr {
     padding: 50px;
 }
 
+#jpm { 
+    animation-delay: 0.5s;
+}
+
 #jpmIcon { 
     color: #373f51;
     text-align: center;
+}
+
+#ld { 
+    animation-delay: 1s;
 }
 
 #ldIcon { 
@@ -272,9 +280,17 @@ hr {
     text-align: center;
 }
 
+#usf { 
+    animation-delay: 1.5s;
+}
+
 #usfIcon { 
     color: #daa49a;
     text-align: center;
+}
+
+#rj { 
+    animation-delay: 2s;
 }
 
 #rjIcon { 
@@ -333,6 +349,18 @@ hr {
     text-align: center;
 }
 
+#skillsWeb { 
+    animation-delay: 0.5s;
+}
+
+#skillsDev { 
+    animation-delay: 1s;
+}
+
+#skillsManagement { 
+    animation-delay: 1.5s;
+}
+
 canvas {
     width: 100% !important;
     max-width: 300px;
@@ -347,6 +375,10 @@ canvas {
     height: auto;
     min-height: 550px;
     padding: 50px;
+}
+
+.project-item { 
+    animation-delay: 0.5s;
 }
 
 #overlay {  
@@ -445,6 +477,18 @@ canvas {
     width: 80%;
 }
 
+#bio { 
+    animation-delay: 0.5s;
+}
+
+#pic { 
+    animation-delay: 1s;
+}
+
+#update { 
+    animation-delay: 1.5s;
+}
+
 /*************************
  * 07. Contact
  *************************/
@@ -494,6 +538,18 @@ canvas {
     text-align: center;
     font-size: 18px;
     padding-bottom: 20px;
+}
+
+#location { 
+    animation-delay: 0.5s;
+}
+
+#email { 
+    animation-delay: 1s;
+}
+
+#phone { 
+    animation-delay: 1.5s;
 }
 
 /*************************
