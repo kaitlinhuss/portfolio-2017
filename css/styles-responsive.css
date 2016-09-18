@@ -1588,7 +1588,17 @@
         /*************************
         * 04. Skills
         *************************/
-        #skill { 
+        #skillsWeb { 
+            padding-left: 100px;
+            padding-right: 100px;   
+        }
+        
+        #skillsDev { 
+            padding-left: 100px;
+            padding-right: 100px;   
+        }
+        
+        #skillsManagement { 
             padding-left: 100px;
             padding-right: 100px;   
         }
@@ -2781,9 +2791,22 @@
         /*************************
         * 04. Skills
         *************************/
-        #skill { 
+        #skillsWeb { 
+            padding-left: 210px;
+            padding-right: 210px;  
+            animation-delay: 0.5s;
+        }
+        
+        #skillsDev { 
             padding-left: 210px;
             padding-right: 210px;   
+            animation-delay: 1s;
+        }
+        
+        #skillsManagement { 
+            padding-left: 210px;
+            padding-right: 210px; 
+            animation-delay: 1.5s;
         }
         
         #skills {
@@ -2817,17 +2840,7 @@
             font-size: 2em; /* */
         }
         
-        #skillsWeb { 
-            animation-delay: 0.5s;
-        }
-
-        #skillsDev { 
-            animation-delay: 1s;
-        }
-
-        #skillsManagement { 
-            animation-delay: 1.5s;
-        }
+        
         
         /*************************
         * 05. Projects
@@ -3207,7 +3220,17 @@
         /*************************
         * 04. Skills
         *************************/
-        #skill { 
+        #skillsWeb { 
+            padding-left: 210px;
+            padding-right: 210px;   
+        }
+        
+        #skillsDev { 
+            padding-left: 210px;
+            padding-right: 210px;   
+        }
+        
+        #skillsManagement { 
             padding-left: 210px;
             padding-right: 210px;   
         }
@@ -3594,7 +3617,17 @@
         /*************************
         * 04. Skills
         *************************/
-        #skill { 
+        #skillsWeb { 
+            padding-left: 210px;
+            padding-right: 210px;   
+        }
+        
+        #skillsDev { 
+            padding-left: 210px;
+            padding-right: 210px;   
+        }
+        
+        #skillsManagement { 
             padding-left: 210px;
             padding-right: 210px;   
         }
@@ -3976,7 +4009,17 @@
             padding: 50px;
         }
         
-        #skill { 
+        #skillsWeb { 
+            padding-left: 0px;
+            padding-right: 0px;   
+        }
+        
+        #skillsDev { 
+            padding-left: 0px;
+            padding-right: 0px;   
+        }
+        
+        #skillsManagement { 
             padding-left: 0px;
             padding-right: 0px;   
         }
