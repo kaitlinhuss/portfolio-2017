@@ -193,6 +193,27 @@
             font-size: 20px; /* */
         }
         
+        #dividerOne {
+            background: #373f51;
+        }
+
+        #dividerTwo {
+            background: #373f51;
+        }
+        
+        #dividerThree {
+            background: #373f51;
+        }
+        
+        #dividerFour {
+            background: #373f51;
+        }
+        
+        #dividerFive {
+            background: #373f51;
+        }
+
+        
         /*************************
         * 03. Experience
         *************************/
@@ -2644,6 +2665,36 @@
             margin: 175px auto; 
             color: #fff;
             font-size: 28px; /* */
+        }
+        
+        #dividerOne {
+            height: auto;
+            min-height: 500px;
+            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero2.jpg") center no-repeat fixed;
+        }
+
+        #dividerTwo {
+            height: auto;
+            min-height: 500px;
+            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero3.jpg") center no-repeat fixed;
+        }
+
+        #dividerThree {
+            height: auto;
+            min-height: 500px;
+            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero.jpg") center no-repeat fixed;
+        }
+
+        #dividerFour {
+            height: auto;
+            min-height: 500px;
+            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero4.jpg") center no-repeat fixed;
+        }
+
+        #dividerFive {
+            height: auto;
+            min-height: 500px;
+            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero5.png") center no-repeat fixed;
         }
         
         /*************************
