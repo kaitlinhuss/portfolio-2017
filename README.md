@@ -23,5 +23,5 @@ This is my first portfolio website.
 
 ## **PENDING** ##
 
-* Remove animations for mobile devices. 
+* Media queries/breakpoints for tablets.
 * Improve responsive images.
