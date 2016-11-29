@@ -6,14 +6,14 @@
  * Date: 09.15.16
  * Version: 0.0.1
  * Purpose: Responsive styles for website.
- * Notes: 
+ * Notes:
  * --- PX to EM calculator: http://pxtoem.com/ (base of 16px)
  * --- Social Media overrides: http://inbound.org/discussion/view/customizing-follow-me-and-social-
  *     sharing-module-icons-with-css
  * --- W3C CSS Validation: http://jigsaw.w3.org/css-validator/#validate_by_uri
  * --- Bootstrap Media Queries: http://getbootstrap.com/css/#grid-media-queries
  * --- Device Media Queries: http://resizr.co/
- * 
+ *
  * --------------------------------------------------------------------------------------------------
  * Revision History
  * --------------------------------------------------------------------------------------------------
@@ -21,24 +21,24 @@
  * --------------------------------------------------------------------------------------------------
  * 09.15.2016 - Created Original Document                                                         KAK
  * ==================================================================================================
- * 
- * -- Breakpoints --                           
- * |     320px     | 
- * |     360px     | 
- * |     375px     | 
- * |     412px     | 
- * |     414px     | 
+ *
+ * -- Breakpoints --
+ * |     320px     |
+ * |     360px     |
+ * |     375px     |
+ * |     412px     |
+ * |     414px     |
  * |     480px     | - XS (Bootstrap)
- * |     568px     | 
- * |     640px     | 
- * |     667px     | 
- * |     690px     | 
- * |     736px     | 
+ * |     568px     |
+ * |     640px     |
+ * |     667px     |
+ * |     690px     |
+ * |     736px     |
  * |     768px     | - S (Bootstrap)
  * |     992px     | - M (Bootstrap)
- * |     1024px    | 
+ * |     1024px    |
  * |     1200px    | - L (Bootstrap)
- *  
+ *
  */
 
     /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
@@ -46,35 +46,35 @@
     /* --------------------------- Mobile First Method ------------------------- */
     /* ------------------------------------------------------------------------- */
     /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
-    
+
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 4 + 5/5s - Portrait ------------------------- */
     /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 320px) { 
-        
+    @media only screen and (min-width : 320px) {
+
         /*************************
          * 00. Defaults
          *************************/
-        
+
         .title {
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
             font-size: 20px;
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
             width: 30%;
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
-        
+
         #hero {
             margin-top: 60px; /* */
             width: 100%;
@@ -99,7 +99,7 @@
             width: 60%; /* */
         }
 
-        #resumeBtn { 
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 10px 20px; /* */
@@ -117,10 +117,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 10px 20px; /* */
@@ -138,10 +138,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 10px 20px; /* */
@@ -159,11 +159,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 5px 10px; /* */
@@ -174,25 +174,25 @@
             margin: 25px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 20px; /* */
         }
-        
+
         #dividerOne {
             background: #373f51;
         }
@@ -213,7 +213,7 @@
             background: #373f51;
         }
 
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -225,66 +225,66 @@
             max-width: 350px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 12px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 10px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1em; /* */
         }
-        
 
-        #rjIcon { 
+
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 1em; /* */
         }
-        
-        #jpm { 
+
+        #jpm {
             animation-delay: 0s;
         }
-        
-        #ld { 
+
+        #ld {
             animation-delay: 0s;
         }
-        
-        #usf { 
+
+        #usf {
             animation-delay: 0s;
         }
-        
-        #rj { 
+
+        #rj {
             animation-delay: 0s;
         }
 
@@ -296,108 +296,108 @@
             max-width: 700px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 1em; /* */
         }
-        
-        #skillsWeb { 
+
+        #skillsWeb {
             animation-delay: 0s;
         }
 
-        #skillsDev { 
+        #skillsDev {
             animation-delay: 0s;
         }
 
-        #skillsManagement { 
+        #skillsManagement {
             animation-delay: 0s;
         }
-        
+
         /*************************
         * 05. Projects
         *************************/
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 220px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 220px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 220px 220px; /* */
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 10px; /* */
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 13px; /* */
         }
-        
-        .project { 
+
+        .project {
             padding-bottom: 10px;
             padding-left: 0px;
             padding-right: 0px;
         }
-        
-        .project-item { 
+
+        .project-item {
             animation-delay: 0s;
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 12px; /* */
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 20px; /* */
             padding-top: 5px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 5px;
             font-size: 20px; /* */
         }
-        
-        #bio { 
+
+        #bio {
             animation-delay: 0s;
         }
 
-        #pic { 
+        #pic {
             animation-delay: 0s;
         }
 
-        #update { 
+        #update {
             animation-delay: 0s;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -409,99 +409,99 @@
             width: 100%;
             max-width: 350px;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 12px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 15px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1em; /* */
         }
-        
-        #location { 
+
+        #location {
             animation-delay: 0s;
         }
 
-        #email { 
+        #email {
             animation-delay: 0s;
         }
 
-        #phone { 
+        #phone {
             animation-delay: 0s;
         }
-        
+
         /*************************
          * 08. Footer
          *************************/
-        .social { 
-            text-align: center; 
+        .social {
+            text-align: center;
         }
-        
-        .social-icons { 
-            color: #a1a9b0; 
+
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 5px;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
-            text-align: center; 
+            text-align: center;
         }
-        
+
      }
 
     /* ------------------------------------------------------------------------- */
     /* Samsung Galaxy Note 2|Galaxy S5|LG G3|HTC One|HTC Evo 3D|LG Nexus 5 - P - */
-    /* ------------------------------------------------------------------------- */ 
-    @media only screen and (min-width : 360px) { 
+    /* ------------------------------------------------------------------------- */
+    @media only screen and (min-width : 360px) {
         /*************************
         * 05. Projects
         *************************/
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 250px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 250px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 250px 220px; /* */
         }
-        
-        
+
+
     }
 
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 6 - Portrait -------------------------------- */
-    /* ------------------------------------------------------------------------- */    
-    @media only screen and (min-width : 375px) {   
-        
+    /* ------------------------------------------------------------------------- */
+    @media only screen and (min-width : 375px) {
+
         /*************************
         * 00. Defaults
         *************************/
@@ -509,44 +509,44 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 22px; /* +2 */ 
+            font-size: 22px; /* +2 */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
             width: 30%;
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
         #hero {
-            margin-top: 80px; /* +10 */ 
+            margin-top: 80px; /* +10 */
             width: 100%;
             height: 100vh;
         }
-        
+
         #heroSubtitle {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 13px; /* +1 */ 
+            font-size: 13px; /* +1 */
         }
 
         #heroDescription {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 12px; /* +1  */ 
+            font-size: 12px; /* +1  */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
-            padding: 12px 22px; /* +2, +2 */ 
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -561,13 +561,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
-            padding: 12px 22px; /* +2, +2 */ 
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -582,13 +582,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
-            padding: 12px 22px; /* +2, +2 */ 
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -603,14 +603,14 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
-            padding: 7px 12px; /* +2, +2 */ 
+            padding: 7px 12px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -618,70 +618,70 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
-            font-size: 21px; /* +2 */ 
+            font-size: 21px; /* +2 */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
-        .company { 
+        .company {
             text-align: center;
-            font-size: 15px; /* +1 */ 
+            font-size: 15px; /* +1 */
         }
 
-        .position { 
-            text-align: center; 
-            font-style: italic;
-            font-size: 13px; /* +1 */ 
-        }
-        
-        .location { 
+        .position {
             text-align: center;
-            font-size: 11px; /* +1 */  
+            font-style: italic;
+            font-size: 13px; /* +1 */
         }
-        
-        #jpmIcon { 
+
+        .location {
+            text-align: center;
+            font-size: 11px; /* +1 */
+        }
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */  
+            font-size: 1.5em; /* +0.5 */
         }
-        
 
-        #rjIcon { 
+
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
-        
-        
+
+
         /*************************
         * 04. Skills
         *************************/
@@ -690,73 +690,73 @@
             max-width: 700px;
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
-        
+
         /*************************
         * 05. Projects
         *************************/
-        #project1 { 
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
-            background-size: 260px 190px; /* */ 
+            background: url("../images/search-the-stars.png");
+            background-size: 260px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
-            background-size: 260px 190px; /* */ 
+            background: url("../images/minerals.png");
+            background-size: 260px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
-            background-size: 280px 220px; /* */ 
+            background-size: 280px 220px; /* */
         }
-        
-        .item-work .info-work p { 
-            font-size: 11px; /* +1 */ 
+
+        .item-work .info-work p {
+            font-size: 11px; /* +1 */
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
-            font-size: 14px; /* +1 */ 
+
+        .item-work .info-work h4 {
+            font-size: 14px; /* +1 */
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
-            font-size: 13px; /* +1 */ 
+
+        #aboutMe p {
+            font-size: 13px; /* +1 */
         }
-        
-        #greetingOne { 
-            font-size: 21px; /* +1 */ 
+
+        #greetingOne {
+            font-size: 21px; /* +1 */
             padding-top: 5px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 5px;
-            font-size: 21px; /* +1 */ 
+            font-size: 21px; /* +1 */
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -768,93 +768,93 @@
             width: 100%;
             max-width: 350px;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
-            font-size: 13px; /* +1 */ 
+            font-size: 13px; /* +1 */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
-            font-size: 16px; /* +1 */ 
+            font-size: 16px; /* +1 */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
-            font-size: 1.5em; /* +0.5 */ 
+            font-size: 1.5em; /* +0.5 */
         }
-        
+
         /*************************
          * 08. Footer
          *************************/
-        .social { 
-            text-align: center; 
+        .social {
+            text-align: center;
         }
-        
-        .social-icons { 
-            color: #a1a9b0; 
+
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 5px;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
-            text-align: center; 
+            text-align: center;
         }
-        
+
     }
 
     /* ------------------------------------------------------------------------- */
     /* --------------- Samsung Galaxy Note - Portrait -------------------------- */
-    /* ------------------------------------------------------------------------- */  
-    @media only screen and (min-width : 400px) { 
-        /* fix pic width */ 
+    /* ------------------------------------------------------------------------- */
+    @media only screen and (min-width : 400px) {
+        /* fix pic width */
     }
 
     /* ------------------------------------------------------------------------- */
     /* -------------------- Motorola Nexus 6 - Portrait ------------------------ */
     /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 412px) { 
+    @media only screen and (min-width : 412px) {
         /*************************
         * 05. Projects
         *************************/
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 300px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 300px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 300px 220px; /* */
         }
-        
+
     }
-    
+
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 6 Plus - Portrait --------------------------- */
     /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 414px) { 
-        
+    @media only screen and (min-width : 414px) {
+
         /*************************
         * 00. Defaults
         *************************/
@@ -862,31 +862,31 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 24px; /* +2 */ 
+            font-size: 24px; /* +2 */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
             width: 30%;
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
         #hero {
-            margin-top: 90px; /* +10 */ 
+            margin-top: 90px; /* +10 */
             width: 100%;
             height: 100vh;
         }
-        
+
         #heroSubtitle {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 14px; /* +1 */ 
+            font-size: 14px; /* +1 */
         }
 
         #heroDescription {
@@ -895,11 +895,11 @@
             color: #6f7983;
             font-size: 13px; /* +1 */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
-            padding: 14px 24px; /* +2, +2 */ 
+            padding: 14px 24px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -914,13 +914,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
-            padding: 14px 24px; /* +2, +2 */ 
+            padding: 14px 24px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -935,13 +935,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
-            padding: 14px 24px; /* +2, +2 */ 
+            padding: 14px 24px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -956,14 +956,14 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
-            padding: 9px 14px; /* +2, +2 */ 
+            padding: 9px 14px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -971,25 +971,25 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
-            font-size: 22px; /* +1 */ 
+            font-size: 22px; /* +1 */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -1000,74 +1000,74 @@
             width: 100%;
             max-width: 350px;
         }
-        
-        .company { 
+
+        .company {
             text-align: center;
-            font-size: 16px; /* +1 */ 
+            font-size: 16px; /* +1 */
         }
 
-        .position { 
-            text-align: center; 
-            font-style: italic;
-            font-size: 14px; /* +1 */ 
-        }
-        
-        .location { 
+        .position {
             text-align: center;
-            font-size: 12px; /* +1 */  
+            font-style: italic;
+            font-size: 14px; /* +1 */
         }
-        
-        
-        
+
+        .location {
+            text-align: center;
+            font-size: 12px; /* +1 */
+        }
+
+
+
 
         /*************************
         * 05. Projects
         *************************/
-        #project1 { 
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
-            background-size: 310px 190px; /* */ 
+            background: url("../images/search-the-stars.png");
+            background-size: 310px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
-            background-size: 310px 190px; /* */ 
+            background: url("../images/minerals.png");
+            background-size: 310px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
-            background-size: 320px 220px; /* */ 
+            background-size: 320px 220px; /* */
         }
-        
-        .item-work .info-work p { 
-            font-size: 12px; /* +1 */ 
+
+        .item-work .info-work p {
+            font-size: 12px; /* +1 */
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
-            font-size: 15px; /* +1 */ 
+
+        .item-work .info-work h4 {
+            font-size: 15px; /* +1 */
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
-            font-size: 14px; /* +1 */ 
+
+        #aboutMe p {
+            font-size: 14px; /* +1 */
         }
-        
-        #greetingOne { 
-            font-size: 22px; /* +1 */ 
+
+        #greetingOne {
+            font-size: 22px; /* +1 */
             padding-top: 5px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 5px;
-            font-size: 22px; /* +1 */ 
+            font-size: 22px; /* +1 */
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -1079,41 +1079,41 @@
             width: 100%;
             max-width: 350px;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
-            font-size: 14px; /* +1 */ 
+            font-size: 14px; /* +1 */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
-            font-size: 17px; /* +1 */ 
+            font-size: 17px; /* +1 */
         }
-        
-        
+
+
         /*************************
          * 08. Footer
          *************************/
-        .social { 
-            text-align: center; 
+        .social {
+            text-align: center;
         }
-        
-        .social-icons { 
-            color: #a1a9b0; 
+
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 5px;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
-            text-align: center; 
+            text-align: center;
         }
-        
+
    }
 
     /* ------------------------------------------------------------------------- */
     /* ----- Extra Small Devices (Phones) | iPhone 4 - Landscape --------------- */
     /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 480px) { 
-        
+    @media only screen and (min-width : 480px) {
+
         /*************************
         * 00. Defaults
         *************************/
@@ -1121,35 +1121,35 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 22px; /* +2 */ 
+            font-size: 22px; /* +2 */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
             width: 30%;
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
         #hero {
-            margin-top: 20px; /* +10 */ 
+            margin-top: 20px; /* +10 */
             width: 100%;
             height: 130vh;
         }
-        
+
         #heroLogo {
             width: 27%;
         }
-        
+
         #heroSubtitle {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 12px; /* +1 */ 
+            font-size: 12px; /* +1 */
         }
 
         #heroDescription {
@@ -1158,11 +1158,11 @@
             color: #6f7983;
             font-size: 11px; /* +1 */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
-            padding: 12px 22px; /* +2, +2 */ 
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1177,13 +1177,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
-            padding: 12px 22px; /* +2, +2 */  
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1198,13 +1198,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
-            padding: 12px 22px; /* +2, +2 */ 
+            padding: 12px 22px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1219,14 +1219,14 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
-            padding: 7px 12px; /* +2, +2 */ 
+            padding: 7px 12px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1234,25 +1234,25 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
-            font-size: 22px; /* +1 */ 
+            font-size: 22px; /* +1 */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -1263,24 +1263,24 @@
             width: 100%;
             max-width: 350px;
         }
-        
-        .company { 
+
+        .company {
             text-align: center;
-            font-size: 16px; /* +1 */ 
+            font-size: 16px; /* +1 */
         }
 
-        .position { 
-            text-align: center; 
-            font-style: italic;
-            font-size: 14px; /* +1 */ 
-        }
-        
-        .location { 
+        .position {
             text-align: center;
-            font-size: 12px; /* +1 */  
+            font-style: italic;
+            font-size: 14px; /* +1 */
         }
-        
-        
+
+        .location {
+            text-align: center;
+            font-size: 12px; /* +1 */
+        }
+
+
 
         /*************************
         * 05. Projects
@@ -1289,57 +1289,57 @@
             padding-left: 25px;
             padding-right: 25px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
-            background-size: 310px 190px; /* */ 
+            background: url("../images/search-the-stars.png");
+            background-size: 310px 190px; /* */
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
-            background-size: 310px 190px; /* */ 
+            background: url("../images/minerals.png");
+            background-size: 310px 190px; /* */
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
-            background-size: 320px 220px; /* */ 
+            background-size: 320px 220px; /* */
         }
-        
-        .item-work .info-work p { 
-            font-size: 12px; /* +1 */ 
+
+        .item-work .info-work p {
+            font-size: 12px; /* +1 */
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
-            font-size: 15px; /* +1 */ 
+
+        .item-work .info-work h4 {
+            font-size: 15px; /* +1 */
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
-            font-size: 12px; /* +1 */ 
+
+        #aboutMe p {
+            font-size: 12px; /* +1 */
         }
-        
-        #greetingOne { 
-            font-size: 21px; /* +1 */ 
+
+        #greetingOne {
+            font-size: 21px; /* +1 */
             padding-top: 5px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 5px;
-            font-size: 21px; /* +1 */ 
+            font-size: 21px; /* +1 */
         }
-        
-        #headshot { 
+
+        #headshot {
             padding-top: 5px;
             width: 30%;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -1351,41 +1351,41 @@
             width: 100%;
             max-width: 350px;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
-            font-size: 12px; /* +1 */ 
+            font-size: 12px; /* +1 */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
-            font-size: 15px; /* +1 */ 
+            font-size: 15px; /* +1 */
         }
-        
-        
+
+
         /*************************
          * 08. Footer
          *************************/
-        .social { 
-            text-align: center; 
+        .social {
+            text-align: center;
         }
-        
-        .social-icons { 
-            color: #a1a9b0; 
+
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 5px;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
-            text-align: center; 
+            text-align: center;
         }
-        
+
    }
 
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 5/5S - Landscape ---------------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 568px) {
-        
+
         /*************************
         * 00. Defaults
         *************************/
@@ -1395,26 +1395,26 @@
             text-transform: uppercase;
             font-weight: 500;
             color: #58585a;
-            font-size: 20px; /* */ 
+            font-size: 20px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
             width: 5%;
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
         #hero {
-            margin-top: 20px; /* */ 
+            margin-top: 20px; /* */
             margin-bottom: 120px;
             width: 100%;
             height: 100vh;
@@ -1424,21 +1424,21 @@
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 12px; /* */ 
+            font-size: 12px; /* */
         }
 
         #heroDescription {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
-            font-size: 11px; /* */ 
+            font-size: 11px; /* */
         }
 
         #heroLogo {
-            width: 24%; /* */ 
+            width: 24%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 10px 20px; /* */
@@ -1456,10 +1456,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 10px 20px; /* */
@@ -1477,10 +1477,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 10px 20px; /* */
@@ -1498,11 +1498,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 5px 10px; /* */
@@ -1513,26 +1513,26 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 20px;  /* */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -1545,174 +1545,174 @@
             margin: auto;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 12px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 10px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
-        
-        
+
+
+
         /*************************
         * 04. Skills
         *************************/
-        #skillsWeb { 
+        #skillsWeb {
             padding-left: 100px;
-            padding-right: 100px;   
+            padding-right: 100px;
         }
-        
-        #skillsDev { 
+
+        #skillsDev {
             padding-left: 100px;
-            padding-right: 100px;   
+            padding-right: 100px;
         }
-        
-        #skillsManagement { 
+
+        #skillsManagement {
             padding-left: 100px;
-            padding-right: 100px;   
+            padding-right: 100px;
         }
-        
+
         canvas {
             width: 100% !important;
             max-width: 500px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
+
         /*************************
         * 05. Projects
         *************************/
-        #project1 { 
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 410px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 410px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 410px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 12px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 14px;
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 12px; /* */
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 20px; /* */
             padding-top: 0px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 0px;
             font-size: 20px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 40%;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 12px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 15px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
@@ -1727,10 +1727,10 @@
         * 01. Hero
         *************************/
         #heroLogo {
-            width: 25%; /* */ 
+            width: 25%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 10px 20px; /* */
@@ -1748,10 +1748,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 10px 20px; /* */
@@ -1769,10 +1769,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 10px 20px; /* */
@@ -1790,13 +1790,13 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
-        
-        #downArrow { 
+
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
-            padding: 7px 15px; /* +2, +2 */ 
+            padding: 7px 15px; /* +2, +2 */
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -1804,47 +1804,47 @@
             margin: 10px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
-        
+
         .project {
             padding-left: 75px;
             padding-right: 75px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 380px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 380px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 380px 220px;
         }
-        
-    
+
+
     }
 
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 6 - Landscape ------------------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 667px) {
-        
+
         /*************************
         * 00. Defaults
         *************************/
@@ -1852,28 +1852,28 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 22px; /* */ 
+            font-size: 22px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 5%; /* */ 
+            width: 5%; /* */
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
         #hero {
-            margin-top: 30px; /* */ 
+            margin-top: 30px; /* */
             margin-bottom: 120px;
             width: 100%;
             height: 100vh;
@@ -1896,8 +1896,8 @@
         #heroLogo {
             width: 24%;
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 12px 22px; /* */
@@ -1915,10 +1915,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 12px 22px; /* */
@@ -1936,10 +1936,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 12px 22px; /* */
@@ -1957,11 +1957,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
 
-         #downArrow { 
+         #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 7px 12px; /* */
@@ -1972,26 +1972,26 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 22px;
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -2004,54 +2004,54 @@
             max-width: 350px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 15px;
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 13px;
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 11px;
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1em;
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em;
         }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em;
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em;
         }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 1.5em;
         }
-        
-       
-        
+
+
+
         /*************************
         * 04. Skills
         *************************/
@@ -2060,121 +2060,121 @@
             max-width: 537px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        
+
         /*************************
         * 05. Projects
         *************************/
-        #project1 { 
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 400px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 400px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 400px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 12px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 15px;
         }
-        
+
         .project {
             padding-left: 75px;
             padding-right: 75px;
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 13px; /* */
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 21px; /* */
             padding-top: 0px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 0px;
             font-size: 21px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 40%;
         }
 
         /*************************
          * 07. Contact
          *************************/
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 13px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 16px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        
+
     }
 
     /* ------------------------------------------------------------------------- */
     /* -------------------- Motorola Nexus 6 - Landscape ----------------------- */
     /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 690px) { 
+    @media only screen and (min-width : 690px) {
         /*************************
         * 01. Hero
         *************************/
@@ -2182,51 +2182,51 @@
         #heroLogo {
             width: 30%; /* */
         }
-        
-        
+
+
         /*************************
         * 05. Projects
         *************************/
-        #project1 { 
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 390px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 390px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 390px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 12px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 15px;
         }
-        
+
         .project {
             padding-left: 100px;
             padding-right: 100px;
         }
-        
+
 
     }
-        
+
     /* ------------------------------------------------------------------------- */
     /* -------------------- iPhone 6 Plus - Landscape -------------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 736px) {
-        
+
         /*************************
         * 00. Defaults
         *************************/
@@ -2234,23 +2234,23 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 24px; /* */ 
+            font-size: 24px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 5%; /* */ 
+            width: 5%; /* */
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
@@ -2278,8 +2278,8 @@
         #heroLogo {
             width: 26%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 14px 24px; /* */
@@ -2297,10 +2297,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 14px 24px; /* */
@@ -2318,10 +2318,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        #linkedinBtn { 
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 14px 24px; /* */
@@ -2339,10 +2339,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
-        
-        #downArrow { 
+
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 9px 14px; /* */
@@ -2353,27 +2353,27 @@
             margin: 30px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;  
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 24px; /* */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -2386,54 +2386,54 @@
             max-width: 350px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 16px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 14px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 12px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1.5em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 2em; /* */
         }
-        
-        
-        
+
+
+
         /*************************
         * 04. Skills
         *************************/
@@ -2442,20 +2442,20 @@
             max-width: 600px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
@@ -2464,99 +2464,99 @@
         /*************************
         * 05. Projects
         *************************/
-         .project { 
+         .project {
             padding-left: 100px;
             padding-right: 100px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 420px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 420px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 420px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 13px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 16px;
         }
-        
+
         /*************************
          * 06. About Me
          *************************/
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 14px; /* */
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 22px; /* */
             padding-top: 0px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 0px;
             font-size: 22px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 40%;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 17px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
-        
+
+
     }
 
     /* ------------------------------------------------------------------------- */
     /* ------ Small Devices (Tablets) | iPad/iPad Mini - Portrait -------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 768px) {
-        
+
          /*************************
         * 00. Defaults
         *************************/
@@ -2564,23 +2564,23 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 30px; /* */ 
+            font-size: 30px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 5%; /* */ 
+            width: 5%; /* */
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
@@ -2608,8 +2608,8 @@
         #heroLogo {
             width: 35%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 15px 40px;
@@ -2627,11 +2627,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 15px 40px;
@@ -2649,11 +2649,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        
-        #linkedinBtn { 
+
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 15px 40px;
@@ -2671,10 +2671,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
-        #downArrow { 
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 10px 20px;
@@ -2685,27 +2685,27 @@
             margin: 60px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;     
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 28px; /* */
         }
-        
+
         #dividerOne {
             height: auto;
             min-height: 500px;
@@ -2735,7 +2735,7 @@
             min-height: 500px;
             background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero5.png") center no-repeat fixed;
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -2745,7 +2745,7 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         .experience-item {
             color: #58585a;
             padding: 0px;
@@ -2755,122 +2755,122 @@
             max-width: 350px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 16px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 14px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 13px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1.5em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 2em; /* */
         }
-        
-        #jpm { 
+
+        #jpm {
             animation-delay: 0.5s;
         }
-        
-        #ld { 
+
+        #ld {
             animation-delay: 1s;
         }
-        
-        #usf { 
+
+        #usf {
             animation-delay: 1.5s;
         }
-        
-        #rj { 
+
+        #rj {
             animation-delay: 2s;
         }
-        
+
         /*************************
         * 04. Skills
         *************************/
-        #skillsWeb { 
+        #skillsWeb {
             padding-left: 210px;
-            padding-right: 210px;  
+            padding-right: 210px;
             animation-delay: 0.5s;
         }
-        
-        #skillsDev { 
+
+        #skillsDev {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
             animation-delay: 1s;
         }
-        
-        #skillsManagement { 
+
+        #skillsManagement {
             padding-left: 210px;
-            padding-right: 210px; 
+            padding-right: 210px;
             animation-delay: 1.5s;
         }
-        
+
         #skills {
             height: auto;
             min-height: 1400px;
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         canvas {
             width: 100% !important;
             max-width: 300px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
         }
-        
-        
-        
+
+
+
         /*************************
         * 05. Projects
         *************************/
@@ -2880,43 +2880,43 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
-        .project { 
+
+        .project {
             padding-left: 100px;
             padding-right: 100px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 550px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 550px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 550px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 13px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 16px;
         }
-        
-        .project-item { 
+
+        .project-item {
             animation-delay: 0.5s;
         }
-        
+
         /*************************
         * 06. About Me
         *************************/
@@ -2927,39 +2927,39 @@
             padding-top: 50px;
             text-align: center;
         }
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 14px; /* */
             padding-left: 100px;
             padding-right: 100px;
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 22px; /* */
             padding-top: 0px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 0px;
             font-size: 22px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 30%;
         }
-        
-        #bio { 
+
+        #bio {
             animation-delay: 0.5s;
         }
 
-        #pic { 
+        #pic {
             animation-delay: 1s;
         }
 
-        #update { 
+        #update {
             animation-delay: 1.5s;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -2970,56 +2970,56 @@
             padding-top: 50px;
             text-align: center;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 17px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
-        #location { 
+
+        #location {
             animation-delay: 0.5s;
         }
 
-        #email { 
+        #email {
             animation-delay: 1s;
         }
 
-        #phone { 
+        #phone {
             animation-delay: 1.5s;
         }
-        
+
         /*************************
          * 08. Footer
          *************************/
-        .social-icons { 
-            color: #a1a9b0; 
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 20px;
             font-size: 3em;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
             font-size: 16px;
         }
@@ -3030,7 +3030,7 @@
     /* -------------------- Medium Devices (Desktops) -------------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 992px) {
-        
+
         /*************************
         * 00. Defaults
         *************************/
@@ -3038,23 +3038,23 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 32px; /* */ 
+            font-size: 32px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 5%; /* */ 
+            width: 5%; /* */
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
@@ -3082,8 +3082,8 @@
         #heroLogo {
             width: 25%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 15px 40px;
@@ -3101,11 +3101,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 15px 40px;
@@ -3123,11 +3123,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        
-        #linkedinBtn { 
+
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 15px 40px;
@@ -3145,10 +3145,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
-        #downArrow { 
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 10px 20px;
@@ -3159,27 +3159,27 @@
             margin: 60px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;     
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 32px; /* */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -3189,7 +3189,7 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         .experience-item {
             color: #58585a;
             padding: 0px;
@@ -3200,97 +3200,97 @@
             padding-top: 30px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 16px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 14px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 13px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 2em; /* */
         }
-        
+
         /*************************
         * 04. Skills
         *************************/
-        #skillsWeb { 
+        #skillsWeb {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
-        #skillsDev { 
+
+        #skillsDev {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
-        #skillsManagement { 
+
+        #skillsManagement {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
+
         #skills {
             height: auto;
             min-height: 1400px;
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         canvas {
             width: 100% !important;
             max-width: 400px; /* */
             height: auto !important;
             padding-left: 100px;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
@@ -3305,39 +3305,39 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
-        .project { 
+
+        .project {
             padding-left: 200px;
             padding-right: 200px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 550px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 550px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 550px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 13px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 16px;
         }
-        
+
         /*************************
         * 06. About Me
         *************************/
@@ -3348,27 +3348,27 @@
             padding-top: 50px;
             text-align: center;
         }
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 14px; /* */
             padding-left: 100px;
             padding-right: 100px;
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 22px; /* */
             padding-top: 0px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 0px;
             font-size: 22px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 30%;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -3379,44 +3379,44 @@
             padding-top: 50px;
             text-align: center;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 17px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
+
         /*************************
          * 08. Footer
          *************************/
-        .social-icons { 
-            color: #a1a9b0; 
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 20px;
             font-size: 3em;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
             font-size: 16px;
         }
@@ -3427,7 +3427,7 @@
     /* -------------------- iPad/iPad Mini - Landscape ------------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 1024px) {
-        
+
          /*************************
         * 00. Defaults
         *************************/
@@ -3435,23 +3435,23 @@
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
             text-transform: uppercase;
-            font-weight: 500; /* */ 
+            font-weight: 500; /* */
             color: #58585a;
-            font-size: 32px; /* */ 
+            font-size: 32px; /* */
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 15%; /* */ 
+            width: 15%; /* */
         }
-        
+
         .hr-icon {
             border: 0;
             border-top: 5px solid #58585a;
-            width: 5%; /* */ 
+            width: 5%; /* */
         }
-        
+
         /*************************
         * 01. Hero
         *************************/
@@ -3479,8 +3479,8 @@
         #heroLogo {
             width: 30%; /* */
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 15px 40px;
@@ -3498,11 +3498,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 15px 40px;
@@ -3520,11 +3520,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        
-        #linkedinBtn { 
+
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 15px 40px;
@@ -3542,10 +3542,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
-        #downArrow { 
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 10px 20px;
@@ -3556,27 +3556,27 @@
             margin: 40px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;     
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
 
 
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 32px; /* */
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -3586,7 +3586,7 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         .experience-item {
             color: #58585a;
             padding: 0px;
@@ -3597,96 +3597,96 @@
             padding-top: 25px;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 16px; /* */
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 14px; /* */
         }
-        
-        .location { 
+
+        .location {
             text-align: center;
             font-size: 13px; /* */
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 1em; /* */
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
-        } 
+        }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 2em; /* */
         }
-        
+
         /*************************
         * 04. Skills
         *************************/
-        #skillsWeb { 
+        #skillsWeb {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
-        #skillsDev { 
+
+        #skillsDev {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
-        #skillsManagement { 
+
+        #skillsManagement {
             padding-left: 210px;
-            padding-right: 210px;   
+            padding-right: 210px;
         }
-        
+
         #skills {
             height: auto;
             min-height: 1400px;
             padding: 0px;
             padding-top: 50px;
         }
-        
+
         canvas {
             width: 100% !important;
             max-width: 500px; /* */
             height: auto !important;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
             font-size: 2em; /* */
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
             font-size: 2em; /* */
@@ -3701,45 +3701,45 @@
             padding: 0px;
             padding-top: 50px;
         }
-        
-        .project { 
+
+        .project {
             padding-left: 100px;
             padding-right: 100px;
             padding-bottom: 25px;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 500px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 500px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 480px 220px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 13px;
             line-height: 100%;
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 16px;
         }
-        
+
         .animation-elements-three {
             width: 500px;
             margin: auto;
         }
-        
+
         /*************************
         * 06. About Me
         *************************/
@@ -3750,27 +3750,27 @@
             padding-top: 50px;
             text-align: center;
         }
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 16px; /* */
             padding-left: 100px;
             padding-right: 100px;
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 24px; /* */
             padding-top: 10px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             padding-top: 10px;
             font-size: 24px; /* */
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 22%;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -3781,44 +3781,44 @@
             padding-top: 50px;
             text-align: center;
         }
-        .contact-info { 
+        .contact-info {
             text-align: center;
             font-size: 14px; /* */
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 17px; /* */
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 1.5em; /* */
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
             font-size: 1.5em; /* */
         }
-        
+
         /*************************
          * 08. Footer
          *************************/
-        .social-icons { 
-            color: #a1a9b0; 
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 20px;
             font-size: 3em;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
             font-size: 16px;
         }
@@ -3829,7 +3829,7 @@
     /* -------------------- Large Devices (Wide Screens) ----------------------- */
     /* ------------------------------------------------------------------------- */
     @media only screen and (min-width : 1200px) {
-        
+
         .title {
             font-family: 'Varela Round', sans-serif;
             letter-spacing: 12px;
@@ -3838,20 +3838,20 @@
             color: #58585a;
             font-size: 32px;
         }
-        
+
         hr {
             border: 0;
             border-top: 5px solid #58585a;
             width: 10%;
         }
-        
+
         #hero {
             margin-top: 50px;
             width: 100%;
             height: 100vh;
         }
-        
-        #resumeBtn { 
+
+        #resumeBtn {
             text-decoration: none;
             background: #58a4b0;
             padding: 15px 40px;
@@ -3869,11 +3869,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
             -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;     
+            box-shadow: 0px 3px 0px 0px #4f939e;
         }
 
 
-        #githubBtn { 
+        #githubBtn {
             text-decoration: none;
             background: #373f51;
             padding: 15px 40px;
@@ -3891,11 +3891,11 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #262c38;
             -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;    
+            box-shadow: 0px 3px 0px 0px #262c38;
         }
 
-        
-        #linkedinBtn { 
+
+        #linkedinBtn {
             text-decoration: none;
             background: #daa49a;
             padding: 15px 40px;
@@ -3913,10 +3913,10 @@
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
             -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;        
+            box-shadow: 0px 3px 0px 0px #ae837b;
         }
 
-        #downArrow { 
+        #downArrow {
             text-decoration: none;
             background: #a1a9b0;
             padding: 10px 20px;
@@ -3927,44 +3927,44 @@
             margin: 20px 0 0;
             font-weight: bold;
             font-size: 14px;
-            line-height: 1.42857143; 
+            line-height: 1.42857143;
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             -o-border-radius: 5px;
             -webkit-box-shadow: 0px 3px 0px 0px #80878c;
             -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;     
+            box-shadow: 0px 3px 0px 0px #80878c;
         }
-        
+
         #heroSubtitle {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
             font-size: 16px;
         }
-        
+
         #heroDescription {
             font-family: 'Varela Round', sans-serif;
             font-weight: 500;
             color: #6f7983;
             font-size: 14px;
         }
-        
-        
+
+
         #heroLogo {
             width: 22%;
         }
-        
+
         /*************************
         * 02. Dividers
         *************************/
-        .divider-title { 
-            margin: 175px auto; 
+        .divider-title {
+            margin: 175px auto;
             color: #fff;
             font-size: 36px;
         }
-        
+
         /*************************
         * 03. Experience
         *************************/
@@ -3976,59 +3976,59 @@
             width: 100%;
             max-width: 350px;
         }
-        
+
         #experience {
             height: auto;
             min-height: 530px;
             padding: 50px;
         }
-        
-        #jpmIcon { 
+
+        #jpmIcon {
             color: #373f51;
             text-align: center;
             font-size: 2em;
         }
 
-        #ldIcon { 
+        #ldIcon {
             color: #58a4b0;
             text-align: center;
             font-size: 2em;
         }
 
-        #usfIcon { 
+        #usfIcon {
             color: #daa49a;
             text-align: center;
             font-size: 2em;
         }
 
-        #rjIcon { 
+        #rjIcon {
             color: #a1a9b0;
             text-align: center;
             font-size: 2em;
         }
 
-        .company { 
+        .company {
             text-align: center;
             font-size: 16px;
         }
 
-        .position { 
-            text-align: center; 
+        .position {
+            text-align: center;
             font-style: italic;
             font-size: 14px;
         }
 
-        .marker { 
+        .marker {
             text-align: center;
             color: #58585a;
             font-size: 12px;
         }
 
-        .location { 
+        .location {
             text-align: center;
             font-size: 12px;
         }
-        
+
         /*************************
         * 04. Skills
         *************************/
@@ -4037,46 +4037,46 @@
             min-height: 550px;
             padding: 50px;
         }
-        
-        #skillsWeb { 
+
+        #skillsWeb {
             padding-left: 0px;
-            padding-right: 0px;   
+            padding-right: 0px;
         }
-        
-        #skillsDev { 
+
+        #skillsDev {
             padding-left: 0px;
-            padding-right: 0px;   
+            padding-right: 0px;
         }
-        
-        #skillsManagement { 
+
+        #skillsManagement {
             padding-left: 0px;
-            padding-right: 0px;   
+            padding-right: 0px;
         }
-        
+
         canvas {
             width: 100% !important;
             max-width: 300px;
             height: auto !important;
             padding-left: 50px;
         }
-        
-        #skillSetOne { 
+
+        #skillSetOne {
             color: #373f51;
             text-align: center;
         }
 
-        #skillSetTwo { 
+        #skillSetTwo {
             color: #58a4b0;
             text-align: center;
         }
 
-        #skillSetThree { 
+        #skillSetThree {
             color: #daa49a;
             text-align: center;
         }
-        
-        
-        
+
+
+
         /*************************
         * 05. Projects
         *************************/
@@ -4085,46 +4085,46 @@
             min-height: 600px;
             padding: 50px;
         }
-        
-        .animation-elements-three { 
-            width: auto;      
+
+        .animation-elements-three {
+            width: auto;
         }
-        
-        #project1 { 
+
+        #project1 {
             border: 3px solid #a1a9b0;
-            background: url("../images/usf-ori.png");
+            background: url("../images/search-the-stars.png");
             background-size: 350px 190px;
         }
-        
-        #project2 { 
+
+        #project2 {
             border: 3px solid #a1a9b0;
-            background: url("../images/code4good.png");
+            background: url("../images/minerals.png");
             background-size: 350px 190px;
         }
-        
-        #project3 { 
+
+        #project3 {
             border: 3px solid #a1a9b0;
             background: url("../images/portfolio.png");
             background-size: 380px 190px;
         }
-        
-        .item-work .info-work p { 
+
+        .item-work .info-work p {
             font-size: 13px;
             line-height: 120%;
-        
+
         }
-        
-        .item-work .info-work h4 { 
+
+        .item-work .info-work h4 {
             font-size: 16px;
-        
+
         }
-        
-        .project { 
+
+        .project {
             padding-bottom: 0px;
             padding-left: 15px;
             padding-right: 15px;
         }
-        
+
          /*************************
          * 06. About Me
          *************************/
@@ -4134,28 +4134,28 @@
             padding: 50px;
             text-align: center;
         }
-        
-        #aboutMe p { 
+
+        #aboutMe p {
             font-size: 15px;
             padding-left: 0px;
             padding-right: 0px;
         }
-        
-        #greetingOne { 
+
+        #greetingOne {
             font-size: 36px;
             padding-top: 40px;
         }
 
-        #greetingTwo { 
+        #greetingTwo {
             font-size: 36px;
             padding-top: 40px;
         }
-        
-        #headshot { 
+
+        #headshot {
             width: 65%;
             padding-top: 40px;
         }
-        
+
         /*************************
          * 07. Contact
          *************************/
@@ -4173,50 +4173,50 @@
             width: 100%;
             max-width: 350px;
         }
-        
-        .contact-info { 
+
+        .contact-info {
             text-align: center;
             font-size: 15px;
         }
 
-        .contact-tag { 
+        .contact-tag {
             text-align: center;
             font-size: 18px;
         }
-        
-        #locationIcon { 
+
+        #locationIcon {
             color: #373f51;
             text-align: center;
         }
 
-        #emailIcon { 
+        #emailIcon {
             color: #58a4b0;
             text-align: center;
         }
 
-        #phoneIcon { 
+        #phoneIcon {
             color: #daa49a;
             text-align: center;
         }
-        
-        
+
+
         /*************************
          * 08. Footer
          *************************/
-        .social { 
-            text-align: right; 
+        .social {
+            text-align: right;
         }
-        
-        .social-icons { 
-            color: #a1a9b0; 
+
+        .social-icons {
+            color: #a1a9b0;
             margin-right: 20px;
             font-size: 2em;
         }
-        
-        .copyright { 
+
+        .copyright {
             color: #a1a9b0;
-            text-align: left; 
+            text-align: left;
         }
-        
+
 
     }
