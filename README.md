@@ -24,5 +24,5 @@ First portfolio website.
 
 ## **PENDING** ##
 
-* Media queries/breakpoints for tablets.
-* Improve responsive images.
+* Fix media queries. 
+* Fix class/id names. 
