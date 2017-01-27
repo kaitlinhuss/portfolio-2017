@@ -6,13 +6,13 @@
  * Date: 09.15.16
  * Version: 0.0.1
  * Purpose: Javascript/JQuery for website.
- * Notes: 
+ * Notes:
  * --- Smooth Scrolling: https://css-tricks.com/snippets/jquery/smooth-scrolling/
  * --- Animate.css: https://daneden.github.io/animate.css/
  * --- Waypoints: http://imakewebthings.com/waypoints/
  * --- Fancybox: http://fancybox.net/
  * --- Isotope Filtering: http://isotope.metafizzy.co/
- * 
+ *
  * --------------------------------------------------------------------------------------------------
  * Revision History
  * --------------------------------------------------------------------------------------------------
@@ -20,54 +20,32 @@
  * --------------------------------------------------------------------------------------------------
  * 09.15.2016 - Created Original Document                                                         KAK
  * ==================================================================================================
- * 
-
-/* Smooth Scrolling 
- * Author: Chris Coyier
- * Date: 01.31.2016
- * Source: CSS-Tricks - https://css-tricks.com/snippets/jquery/smooth-scrolling/
- * Reference: http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links 
- * Used: Down arrow in hero section.
- */ 
-
-$(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
+ *
+*/
 
 
 $(document).ready(function() {
 
     /* Waypoints */
-    
+
     /* Experience */
     $('.wp0').waypoint(function() { $('.wp0').addClass('animated fadeInDown'); }, { offset: '100%' });
     $('.wp1').waypoint(function() { $('.wp1').addClass('animated fadeInUp'); }, { offset: '100%' });
     $('.wp2').waypoint(function() { $('.wp2').addClass('animated fadeInUp'); }, { offset: '100%' });
     $('.wp3').waypoint(function() { $('.wp3').addClass('animated fadeInUp'); }, { offset: '100%' });
     $('.wp4').waypoint(function() { $('.wp4').addClass('animated fadeInUp'); }, { offset: '100%' });
-    
+
     /* Skills */
     $('.wp5').waypoint(function() { $('.wp5').addClass('animated fadeInDown'); }, { offset: '100%' });
     $('.wp6').waypoint(function() { $('.wp6').addClass('animated fadeInUp'); }, { offset: '100%' });
     $('.wp7').waypoint(function() { $('.wp7').addClass('animated fadeInUp'); }, { offset: '100%' });
     $('.wp8').waypoint(function() { $('.wp8').addClass('animated fadeInUp'); }, { offset: '100%' });
-    
+
     /* About Me */
      $('.wp9').waypoint(function() { $('.wp9').addClass('animated fadeInDown'); }, { offset: '100%' });
      $('.wp10').waypoint(function() { $('.wp10').addClass('animated fadeInUp'); }, { offset: '100%' });
      $('.wp11').waypoint(function() { $('.wp11').addClass('animated fadeInUp'); }, { offset: '100%' });
-    
+
     /* Contact */
     $('.wp12').waypoint(function() { $('.wp12').addClass('animated fadeInDown'); }, { offset: '100%' });
     $('.wp13').waypoint(function() { $('.wp13').addClass('animated fadeInUp'); }, { offset: '100%' });
@@ -92,7 +70,7 @@ $(document).ready(function() {
         container: "body"
     });
 
-    /* Scroll Effects: FadeIn Down 
+    /* Scroll Effects: FadeIn Down
      * Section: Experience
      * Source: Animate.css - https://daneden.github.io/animate.css/
      */
@@ -105,7 +83,7 @@ $(document).ready(function() {
             }
         });
     });
-    
+
     /* Scroll Effects 2: Pulse
      * Section: Skills
      * Source: Animate.css - https://daneden.github.io/animate.css/
@@ -120,8 +98,8 @@ $(document).ready(function() {
             }
         });
     });
-    
-    /* Scroll Effects 3: FadeIn Up 
+
+    /* Scroll Effects 3: FadeIn Up
      * Section: Projects
      * Source: Animate.css - https://daneden.github.io/animate.css/
      */
@@ -134,8 +112,8 @@ $(document).ready(function() {
             }
         });
     });
-    
-    /* Scroll Effects 4: FadeIn Left 
+
+    /* Scroll Effects 4: FadeIn Left
      * Section: About Me
      * Source: Animate.css - https://daneden.github.io/animate.css/
      */
@@ -149,8 +127,8 @@ $(document).ready(function() {
             }
         });
     });
-    
-    /* Scroll Effects 5: FadeIn Right 
+
+    /* Scroll Effects 5: FadeIn Right
      * Section: Contact
      * Source: Animate.css - https://daneden.github.io/animate.css/
      */
@@ -165,7 +143,7 @@ $(document).ready(function() {
         });
     });
 
-    /* Projects Filter 
+    /* Projects Filter
      * Source: Isotope Filtering - http://isotope.metafizzy.co/
      */
     $(window).load(function(){
@@ -196,4 +174,3 @@ $(document).ready(function() {
     });
 
 });
-
