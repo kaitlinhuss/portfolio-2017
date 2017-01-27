@@ -3,41 +3,33 @@
  * STYLES-RESPONSIVE.CSS
  * ==================================================================================================
  * Author: Kaitlin Kidd
- * Date: 09.15.16
- * Version: 0.0.1
- * Purpose: Responsive styles for website.
+ * Date: 01.27.17
+ * Purpose: Media queries for website.
  * Notes:
  * --- PX to EM calculator: http://pxtoem.com/ (base of 16px)
- * --- Social Media overrides: http://inbound.org/discussion/view/customizing-follow-me-and-social-
- *     sharing-module-icons-with-css
  * --- W3C CSS Validation: http://jigsaw.w3.org/css-validator/#validate_by_uri
- * --- Bootstrap Media Queries: http://getbootstrap.com/css/#grid-media-queries
- * --- Device Media Queries: http://resizr.co/
+ * --- Bootstrap Media Queries: https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries
  *
  * --------------------------------------------------------------------------------------------------
  * Revision History
  * --------------------------------------------------------------------------------------------------
  * Date          Revision Description                                                     Modified By
  * --------------------------------------------------------------------------------------------------
- * 09.15.2016 - Created Original Document                                                         KAK
+ * 09.15.2016 - Created Original Document                                                      KAK
+ * 01.27.2017 - Optimized media queries                                                          KAK
  * ==================================================================================================
  *
- * -- Breakpoints --
- * |     320px     |
- * |     360px     |
- * |     375px     |
- * |     412px     |
- * |     414px     |
- * |     480px     | - XS (Bootstrap)
- * |     568px     |
- * |     640px     |
- * |     667px     |
- * |     690px     |
- * |     736px     |
- * |     768px     | - S (Bootstrap)
- * |     992px     | - M (Bootstrap)
- * |     1024px    |
- * |     1200px    | - L (Bootstrap)
+ * - Contents -
+ * 00. Defaults
+ * 01. Universal
+ * 02. Hero
+ * 03. Dividers
+ * 04. Experience
+ * 05. Skills
+ * 06. Projects
+ * 07. About Me
+ * 08. Contact
+ * 09. Footer
  *
  */
 
