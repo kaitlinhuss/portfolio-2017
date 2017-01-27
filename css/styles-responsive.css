@@ -9,7 +9,6 @@
  * --- PX to EM calculator: http://pxtoem.com/ (base of 16px)
  * --- W3C CSS Validation: http://jigsaw.w3.org/css-validator/#validate_by_uri
  * --- Bootstrap Media Queries: https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries
- *
  * --------------------------------------------------------------------------------------------------
  * Revision History
  * --------------------------------------------------------------------------------------------------
@@ -19,7 +18,7 @@
  * 01.27.2017 - Optimized media queries                                                          KAK
  * ==================================================================================================
  *
- * - Contents -
+ * --- Contents ---
  * 00. Defaults
  * 01. Universal
  * 02. Hero
@@ -30,4185 +29,546 @@
  * 07. About Me
  * 08. Contact
  * 09. Footer
+ * 10. Scroller
+ * 11. Waypoints
  *
+ * --- Media Queries ---
+ * iPhone 6 - 320px
+ * Extra Small Devices - 480px
+ * Small Devices - 768px
+ * Medium Devices - 992px
+ * Large Devices - 1200px
  */
-
-    /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
-    /* ------------------------------------------------------------------------- */
-    /* --------------------------- Mobile First Method ------------------------- */
-    /* ------------------------------------------------------------------------- */
-    /* -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- */
-
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 4 + 5/5s - Portrait ------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 320px) {
-
-        /*************************
-         * 00. Defaults
-         *************************/
-
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 20px;
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 30%;
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-
-        #hero {
-            margin-top: 60px; /* */
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 12px; /* */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 11px; /* */
-        }
-
-        #heroLogo {
-            width: 60%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 5px 10px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 25px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 20px; /* */
-        }
-
-        #dividerOne {
-            background: #373f51;
-        }
-
-        #dividerTwo {
-            background: #373f51;
-        }
-
-        #dividerThree {
-            background: #373f51;
-        }
-
-        #dividerFour {
-            background: #373f51;
-        }
-
-        #dividerFive {
-            background: #373f51;
-        }
-
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            height: 100%;
-            min-height: 250px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 14px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 12px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 10px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #jpm {
-            animation-delay: 0s;
-        }
-
-        #ld {
-            animation-delay: 0s;
-        }
-
-        #usf {
-            animation-delay: 0s;
-        }
-
-        #rj {
-            animation-delay: 0s;
-        }
-
-        /*************************
-        * 04. Skills
-        *************************/
-        canvas {
-            width: 100% !important;
-            max-width: 700px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #skillsWeb {
-            animation-delay: 0s;
-        }
-
-        #skillsDev {
-            animation-delay: 0s;
-        }
-
-        #skillsManagement {
-            animation-delay: 0s;
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 220px 190px; /* */
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 220px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 220px 220px; /* */
-        }
-
-        .item-work .info-work p {
-            font-size: 10px; /* */
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 13px; /* */
-        }
-
-        .project {
-            padding-bottom: 10px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        .project-item {
-            animation-delay: 0s;
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 12px; /* */
-        }
-
-        #greetingOne {
-            font-size: 20px; /* */
-            padding-top: 5px;
-        }
-
-        #greetingTwo {
-            padding-top: 5px;
-            font-size: 20px; /* */
-        }
-
-        #bio {
-            animation-delay: 0s;
-        }
-
-        #pic {
-            animation-delay: 0s;
-        }
-
-        #update {
-            animation-delay: 0s;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-item {
-            color: #58585a;
-            padding: 25px;
-            height: 100%;
-            min-height: 200px;
-            width: 100%;
-            max-width: 350px;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 12px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 15px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1em; /* */
-        }
-
-        #location {
-            animation-delay: 0s;
-        }
-
-        #email {
-            animation-delay: 0s;
-        }
-
-        #phone {
-            animation-delay: 0s;
-        }
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social {
-            text-align: center;
-        }
-
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 5px;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            text-align: center;
-        }
-
+/* ----------========= Mobile First Method =========----- */
+/* .......----------======================================----------........
+===================== iPhone 6 - 375px =======================
+.......----------======================================----------........ */
+ @media only screen and (min-width : 375px) {
+   /*************************
+    * 01. Universal
+    *************************/
+     .title {
+       font-size: 26px;
      }
 
-    /* ------------------------------------------------------------------------- */
-    /* Samsung Galaxy Note 2|Galaxy S5|LG G3|HTC One|HTC Evo 3D|LG Nexus 5 - P - */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 360px) {
-        /*************************
-        * 05. Projects
-        *************************/
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 250px 190px; /* */
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 250px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 250px 220px; /* */
-        }
-
-
+     /*************************
+    * 02. Hero
+    *************************/
+    #heroLogo {
+      width: 70%;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 6 - Portrait -------------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 375px) {
-
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 22px; /* +2 */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 30%;
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 80px; /* +10 */
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 13px; /* +1 */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 12px; /* +1  */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 7px 12px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 21px; /* +2 */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .company {
-            text-align: center;
-            font-size: 15px; /* +1 */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 13px; /* +1 */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 11px; /* +1 */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-
-        /*************************
-        * 04. Skills
-        *************************/
-        canvas {
-            width: 100% !important;
-            max-width: 700px;
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 260px 190px; /* */
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 260px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 280px 220px; /* */
-        }
-
-        .item-work .info-work p {
-            font-size: 11px; /* +1 */
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 14px; /* +1 */
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 13px; /* +1 */
-        }
-
-        #greetingOne {
-            font-size: 21px; /* +1 */
-            padding-top: 5px;
-        }
-
-        #greetingTwo {
-            padding-top: 5px;
-            font-size: 21px; /* +1 */
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-item {
-            color: #58585a;
-            padding: 25px;
-            height: 100%;
-            min-height: 200px;
-            width: 100%;
-            max-width: 350px;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 13px; /* +1 */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 16px; /* +1 */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* +0.5 */
-        }
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social {
-            text-align: center;
-        }
-
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 5px;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            text-align: center;
-        }
-
+    #hero .title {
+      font-size: 28px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* --------------- Samsung Galaxy Note - Portrait -------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 400px) {
-        /* fix pic width */
+    #githubBtn {
+      padding: 10px 30px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- Motorola Nexus 6 - Portrait ------------------------ */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 412px) {
-        /*************************
-        * 05. Projects
-        *************************/
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 300px 190px; /* */
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 300px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 300px 220px; /* */
-        }
-
+    #resumeBtn {
+      padding: 10px 30px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 6 Plus - Portrait --------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 414px) {
+    #linkedinBtn {
+      padding: 10px 20px;
+    }
 
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 24px; /* +2 */
-        }
+    /*************************
+     * 03. Dividers
+     *************************/
+     .divider-title {
+       margin: 175px auto;
+       color: #fff;
+       font-size: 22px;
+       width: 80%;
+     }
 
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 30%;
-        }
+     /*************************
+      * 04. Experience
+      *************************/
+      #experience {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 90px; /* +10 */
-            width: 100%;
-            height: 100vh;
-        }
+      #experienceHr {
+        margin-bottom:50px;
+      }
 
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 14px; /* +1 */
-        }
+      #experience h4 {
+        font-size: 14px;
+      }
 
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 13px; /* +1 */
-        }
+      #experience h5 {
+        font-size: 13px;
+      }
 
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 14px 24px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
+      #experience h6 {
+        font-size: 12px;
+      }
 
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 14px 24px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
+      .experience-item {
+        padding: 0px;
+      }
 
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 14px 24px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
+      #positionOne {
+        font-size: 14px;
+      }
 
+      #positionTwo {
+        font-size: 14px;
+      }
 
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 9px 14px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
+      #positionThree {
+        font-size: 14px;
+      }
 
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 22px; /* +1 */
-        }
+      #positionFour {
+        font-size: 14px;
+      }
 
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
+      /*************************
+       * 05. Skills
+       *************************/
+       #skillsHr {
+         margin-bottom:50px;
+       }
 
-        .company {
-            text-align: center;
-            font-size: 16px; /* +1 */
-        }
+       /*************************
+       * 06. Projects
+       *************************/
+       #projectsHr {
+         margin-bottom:50px;
+       }
 
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* +1 */
-        }
+       #projects h4 {
+         font-size: 13px;
+       }
 
-        .location {
-            text-align: center;
-            font-size: 12px; /* +1 */
-        }
+       #projects p {
+         font-size: 11px;
+       }
 
+       .project-item {
+        padding-bottom: 20px;
+      }
 
+      #project1 {
+        background-size: 275px 190px;
+      }
 
+      #project2 {
+        background-size: 275px 190px;
+      }
 
-        /*************************
-        * 05. Projects
-        *************************/
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 310px 190px; /* */
-        }
+      #project3 {
+        background-size: 275px 190px;
+      }
 
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 310px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 320px 220px; /* */
-        }
-
-        .item-work .info-work p {
-            font-size: 12px; /* +1 */
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 15px; /* +1 */
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 14px; /* +1 */
-        }
-
-        #greetingOne {
-            font-size: 22px; /* +1 */
-            padding-top: 5px;
-        }
-
-        #greetingTwo {
-            padding-top: 5px;
-            font-size: 22px; /* +1 */
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-item {
-            color: #58585a;
-            padding: 25px;
-            height: 100%;
-            min-height: 200px;
-            width: 100%;
-            max-width: 350px;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 14px; /* +1 */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 17px; /* +1 */
-        }
-
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social {
-            text-align: center;
-        }
-
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 5px;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            text-align: center;
-        }
-
+  /*************************
+   * 07. About Me
+   *************************/
+   #aboutmeHr {
+     margin-bottom:10px;
    }
 
-    /* ------------------------------------------------------------------------- */
-    /* ----- Extra Small Devices (Phones) | iPhone 4 - Landscape --------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 480px) {
-
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 22px; /* +2 */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 30%;
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 20px; /* +10 */
-            width: 100%;
-            height: 130vh;
-        }
-
-        #heroLogo {
-            width: 27%;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 12px; /* +1 */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 11px; /* +1 */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 38px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 38px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 12px 22px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 38px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 7px 12px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 22px; /* +1 */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px; /* +1 */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* +1 */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 12px; /* +1 */
-        }
-
-
-
-        /*************************
-        * 05. Projects
-        *************************/
-        .project {
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 310px 190px; /* */
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 310px 190px; /* */
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 320px 220px; /* */
-        }
-
-        .item-work .info-work p {
-            font-size: 12px; /* +1 */
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 15px; /* +1 */
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 12px; /* +1 */
-        }
-
-        #greetingOne {
-            font-size: 21px; /* +1 */
-            padding-top: 5px;
-        }
-
-        #greetingTwo {
-            padding-top: 5px;
-            font-size: 21px; /* +1 */
-        }
-
-        #headshot {
-            padding-top: 5px;
-            width: 30%;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-item {
-            color: #58585a;
-            padding: 25px;
-            height: 100%;
-            min-height: 200px;
-            width: 100%;
-            max-width: 350px;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 12px; /* +1 */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 15px; /* +1 */
-        }
-
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social {
-            text-align: center;
-        }
-
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 5px;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            text-align: center;
-        }
-
+   #greetingOne {
+     padding-top: 20px;
+     font-size: 25px;
    }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 5/5S - Landscape ---------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 568px) {
+   #greetingTwo {
+     padding-top: 40px;
+     font-size: 25px;
+   }
 
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: #58585a;
-            font-size: 20px; /* */
-        }
+   /*************************
+    * 08. Contact
+    *************************/
+    #contactHr {
+        margin-bottom:10px;
+      }
 
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
-        }
+      .contact-info {
+          font-size: 13px;
+      }
 
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%;
-        }
+      .contact-tag {
+          font-size: 12px;
+      }
+  }
 
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 20px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
-        }
+ /* .......----------======================================----------........
+ =============== Extra Small Devices - 480px ====================
+ .......----------======================================----------........ */
+ @media only screen and (min-width : 480px) {
+   /*************************
+    * 01. Universal
+    *************************/
+     .title {
+       font-size: 30px;
+     }
 
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 12px; /* */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 11px; /* */
-        }
-
-        #heroLogo {
-            width: 24%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 40px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 40px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 40px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 5px 10px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 20px;  /* */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            height: 100%;
-            min-height: 250px; /* */
-            width: 100%;
-            max-width: 350px;
-            margin: auto;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 14px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 12px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 10px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-
-
-        /*************************
-        * 04. Skills
-        *************************/
-        #skillsWeb {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #skillsDev {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #skillsManagement {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        canvas {
-            width: 100% !important;
-            max-width: 500px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 410px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 410px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 410px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 12px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 14px;
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 12px; /* */
-        }
-
-        #greetingOne {
-            font-size: 20px; /* */
-            padding-top: 0px;
-        }
-
-        #greetingTwo {
-            padding-top: 0px;
-            font-size: 20px; /* */
-        }
-
-        #headshot {
-            width: 40%;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-info {
-            text-align: center;
-            font-size: 12px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 15px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
+     /*************************
+    * 02. Hero
+    *************************/
+    #heroLogo {
+      width: 50%;
+      padding-top: 30px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* Samsung Galaxy Note 2|Galaxy S5|LG G3|HTC One|HTC Evo 3D|LG Nexus 5 - L - */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 640px) {
-        /*************************
-        * 01. Hero
-        *************************/
-        #heroLogo {
-            width: 25%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 10px 20px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 7px 15px; /* +2, +2 */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 10px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-        .project {
-            padding-left: 75px;
-            padding-right: 75px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 380px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 380px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 380px 220px;
-        }
-
-
+    #hero .title {
+      font-size: 28px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 6 - Landscape ------------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 667px) {
-
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 22px; /* */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
-        }
-
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%; /* */
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 30px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 13px;
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 12px;
-        }
-
-        #heroLogo {
-            width: 24%;
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 12px 22px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 12px 22px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 12px 22px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-
-         #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 7px 12px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 22px;
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            padding: 0px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 15px;
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 13px;
-        }
-
-        .location {
-            text-align: center;
-            font-size: 11px;
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1em;
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em;
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em;
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em;
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 1.5em;
-        }
-
-
-
-        /*************************
-        * 04. Skills
-        *************************/
-         canvas {
-            width: 100% !important;
-            max-width: 537px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 400px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 400px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 400px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 12px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 15px;
-        }
-
-        .project {
-            padding-left: 75px;
-            padding-right: 75px;
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 13px; /* */
-        }
-
-        #greetingOne {
-            font-size: 21px; /* */
-            padding-top: 0px;
-        }
-
-        #greetingTwo {
-            padding-top: 0px;
-            font-size: 21px; /* */
-        }
-
-        #headshot {
-            width: 40%;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-info {
-            text-align: center;
-            font-size: 13px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 16px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-
+    #githubBtn {
+      padding: 10px 30px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- Motorola Nexus 6 - Landscape ----------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 690px) {
-        /*************************
-        * 01. Hero
-        *************************/
-
-        #heroLogo {
-            width: 30%; /* */
-        }
-
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 390px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 390px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 390px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 12px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 15px;
-        }
-
-        .project {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-
+    #resumeBtn {
+      padding: 10px 30px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPhone 6 Plus - Landscape -------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 736px) {
-
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 24px; /* */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
-        }
-
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%; /* */
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 30px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500; /* */
-            color: #6f7983;
-            font-size: 14px; /* */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 13px; /* */
-        }
-
-        #heroLogo {
-            width: 26%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 14px 24px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 14px 24px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 14px 24px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 45px 0 0;
-            font-weight: bold;
-            font-size: 10px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 9px 14px; /* */
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 30px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 24px; /* */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            padding: 0px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 12px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1.5em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-
-
-        /*************************
-        * 04. Skills
-        *************************/
-         canvas {
-            width: 100% !important;
-            max-width: 600px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-         .project {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 420px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 420px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 420px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 13px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 16px;
-        }
-
-        /*************************
-         * 06. About Me
-         *************************/
-
-        #aboutMe p {
-            font-size: 14px; /* */
-        }
-
-        #greetingOne {
-            font-size: 22px; /* */
-            padding-top: 0px;
-        }
-
-        #greetingTwo {
-            padding-top: 0px;
-            font-size: 22px; /* */
-        }
-
-        #headshot {
-            width: 40%;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        .contact-info {
-            text-align: center;
-            font-size: 14px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 17px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-
+    #linkedinBtn {
+      padding: 10px 20px;
     }
 
-    /* ------------------------------------------------------------------------- */
-    /* ------ Small Devices (Tablets) | iPad/iPad Mini - Portrait -------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 768px) {
+    /*************************
+     * 03. Dividers
+     *************************/
+     .divider-title {
+       margin: 175px auto;
+       color: #fff;
+       font-size: 28px;
+       width: 80%;
+     }
 
-         /*************************
-        * 00. Defaults
+     /*************************
+      * 04. Experience
+      *************************/
+      #experience {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      .experience-item {
+        padding: 0px;
+      }
+
+      #experience h4 {
+        font-size: 15px;
+      }
+
+      #positionOne {
+        padding-left: 0px;
+        font-size: 14px;
+      }
+
+      #positionTwo {
+        padding-left: 0px;
+        font-size: 14px;
+      }
+
+      #positionThree {
+        padding-left: 0px;
+        font-size: 14px;
+      }
+
+      #positionFour {
+        padding-left: 0px;
+        font-size: 14px;
+      }
+
+      /*************************
+       * 05. Skills
+       *************************/
+       #skillsHr {
+         margin-bottom: 50px;
+       }
+
+       #skills h6 {
+         font-size: 15px;
+       }
+
+        #setOne {
+         margin-left: 70px;
+       }
+
+       #setTwo {
+         margin-left: 70px;
+       }
+
+       #setThree {
+         margin-left: 70px;
+       }
+
+       /*************************
+       * 06. Projects
+       *************************/
+       #projectsHr {
+         margin-bottom: 40px;
+       }
+
+       #projects h4 {
+         font-size: 15px;
+       }
+
+       #projects p {
+         font-size: 13px;
+       }
+
+       .project-item {
+        padding-bottom: 20px;
+      }
+
+      #project1 {
+        background-size: 430px 200px;
+      }
+
+      #project2 {
+        background-size: 430px 200px;
+      }
+
+      #project3 {
+        background-size: 430px 240px;
+      }
+
+      /*************************
+       * 07. About Me
+       *************************/
+       #aboutmeHr {
+         margin-bottom: 0px;
+       }
+
+       #headshot {
+         width: 60%;
+         padding-top: 30px;
+       }
+
+       #greetingOne {
+         padding-top: 20px;
+         font-size: 30px;
+       }
+
+       #greetingTwo {
+         padding-top: 40px;
+         font-size: 30px;
+       }
+
+       #aboutMe p {
+         font-size: 13px;
+       }
+
+       /*************************
+        * 08. Contact
         *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 30px; /* */
+         .contact-item {
+           padding-left: 100px;
+           padding-bottom: 0px;
+         }
+
+         .contact-info {
+             font-size: 13px;
+         }
+
+         .contact-tag {
+             font-size: 15px;
+         }
+ }
+
+   /* .......----------======================================----------........
+   =================  Small Devices - 768px ======================
+   .......----------======================================----------........ */
+   @media only screen and (min-width : 768px) {
+     /*************************
+      * 01. Universal
+      *************************/
+       .title {
+         font-size: 30px;
+         font-weight: 500;
+       }
+
+       /*************************
+    * 02. Hero
+    *************************/
+    #heroLogo {
+      width: 38%;
+      padding-top: 0px;
+    }
+
+    #hero .title {
+      font-size: 34px;
+      font-weight: 500;
+    }
+
+    #githubBtn {
+      padding: 15px 40px;
+    }
+
+    #resumeBtn {
+      padding: 15px 40px;
+    }
+
+    #linkedinBtn {
+      padding: 15px 40px;
+    }
+
+    /*************************
+     * 03. Dividers
+     *************************/
+      .divider-title {
+        margin: 175px auto;
+        color: #fff;
+        width: 90%;
+      }
+
+      /*************************
+       * 04. Experience
+       *************************/
+       #experience h4 {
+         font-size: 17px;
+       }
+
+       #experience h5 {
+         font-size: 16px;
+       }
+
+       #experience h6 {
+         font-size: 15px;
+       }
+
+       #positionOne {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionTwo {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionThree {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionFour {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       /*************************
+        * 05. Skills
+        *************************/
+        #skillsHr {
+          margin-bottom: 50px;
         }
 
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
+        #skills h6 {
+          font-size: 20px;
         }
 
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%; /* */
+         #setOne {
+          margin-left: 190px;
+        }
+
+        #setTwo {
+          margin-left: 190px;
+        }
+
+        #setThree {
+          margin-left: 190px;
         }
 
         /*************************
-        * 01. Hero
+        * 06. Projects
         *************************/
-        #hero {
-            margin-top: 50px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
+        #projectsHr {
+          margin-bottom: 50px;
         }
 
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500; /* */
-            color: #6f7983;
-            font-size: 16px; /* */
+        #projects h4 {
+          font-size: 17px;
         }
 
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 15px; /* */
-        }
-
-        #heroLogo {
-            width: 35%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 50px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 10px 20px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 28px; /* */
-        }
-
-        #dividerOne {
-            height: auto;
-            min-height: 500px;
-            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero2.jpg") center no-repeat fixed;
-        }
-
-        #dividerTwo {
-            height: auto;
-            min-height: 500px;
-            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero3.jpg") center no-repeat fixed;
-        }
-
-        #dividerThree {
-            height: auto;
-            min-height: 500px;
-            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero.jpg") center no-repeat fixed;
-        }
-
-        #dividerFour {
-            height: auto;
-            min-height: 500px;
-            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero4.jpg") center no-repeat fixed;
-        }
-
-        #dividerFive {
-            height: auto;
-            min-height: 500px;
-            background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero5.png") center no-repeat fixed;
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        #experience {
-            height: auto;
-            min-height: 800px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .experience-item {
-            color: #58585a;
-            padding: 0px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 13px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1.5em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #jpm {
-            animation-delay: 0.5s;
-        }
-
-        #ld {
-            animation-delay: 1s;
-        }
-
-        #usf {
-            animation-delay: 1.5s;
-        }
-
-        #rj {
-            animation-delay: 2s;
-        }
-
-        /*************************
-        * 04. Skills
-        *************************/
-        #skillsWeb {
-            padding-left: 210px;
-            padding-right: 210px;
-            animation-delay: 0.5s;
-        }
-
-        #skillsDev {
-            padding-left: 210px;
-            padding-right: 210px;
-            animation-delay: 1s;
-        }
-
-        #skillsManagement {
-            padding-left: 210px;
-            padding-right: 210px;
-            animation-delay: 1.5s;
-        }
-
-        #skills {
-            height: auto;
-            min-height: 1400px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        canvas {
-            width: 100% !important;
-            max-width: 300px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #projects {
-            height: auto;
-            min-height: 1190px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .project {
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 550px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 550px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 550px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 13px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 16px;
+        #projects p {
+          font-size: 13px;
         }
 
         .project-item {
-            animation-delay: 0.5s;
-        }
+         padding-bottom: 20px;
+       }
 
-        /*************************
-        * 06. About Me
+       #project1 {
+         background-size: 690px 500px;
+       }
+
+       #project2 {
+         background-size: 700px 500px;
+       }
+
+       #project3 {
+         background-size: 700px 500px;
+       }
+
+       /*************************
+        * 07. About Me
         *************************/
-        #aboutMe {
-            height: auto;
-            min-height: 750px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
-        }
-
-        #aboutMe p {
-            font-size: 14px; /* */
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #greetingOne {
-            font-size: 22px; /* */
-            padding-top: 0px;
-        }
-
-        #greetingTwo {
-            padding-top: 0px;
-            font-size: 22px; /* */
+        #aboutmeHr {
+          margin-bottom: 0px;
         }
 
         #headshot {
-            width: 30%;
-        }
-
-        #bio {
-            animation-delay: 0.5s;
-        }
-
-        #pic {
-            animation-delay: 1s;
-        }
-
-        #update {
-            animation-delay: 1.5s;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        #contact {
-            height: auto;
-            min-height: 400px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 14px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 17px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #location {
-            animation-delay: 0.5s;
-        }
-
-        #email {
-            animation-delay: 1s;
-        }
-
-        #phone {
-            animation-delay: 1.5s;
-        }
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 20px;
-            font-size: 3em;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            font-size: 16px;
-        }
-
-    }
-
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- Medium Devices (Desktops) -------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 992px) {
-
-        /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 32px; /* */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
-        }
-
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%; /* */
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 50px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500; /* */
-            color: #6f7983;
-            font-size: 16px; /* */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 15px; /* */
-        }
-
-        #heroLogo {
-            width: 25%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 10px 20px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 32px; /* */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        #experience {
-            height: auto;
-            min-height: 550px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .experience-item {
-            color: #58585a;
-            padding: 0px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-            padding-top: 30px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 13px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        /*************************
-        * 04. Skills
-        *************************/
-        #skillsWeb {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skillsDev {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skillsManagement {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skills {
-            height: auto;
-            min-height: 1400px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        canvas {
-            width: 100% !important;
-            max-width: 400px; /* */
-            height: auto !important;
-            padding-left: 100px;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #projects {
-            height: auto;
-            min-height: 1190px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .project {
-            padding-left: 200px;
-            padding-right: 200px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 550px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 550px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 550px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 13px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 16px;
-        }
-
-        /*************************
-        * 06. About Me
-        *************************/
-        #aboutMe {
-            height: auto;
-            min-height: 750px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
-        }
-
-        #aboutMe p {
-            font-size: 14px; /* */
-            padding-left: 100px;
-            padding-right: 100px;
+          width: 50%;
+          padding-top: 30px;
         }
 
         #greetingOne {
-            font-size: 22px; /* */
-            padding-top: 0px;
+          padding-top: 20px;
+          font-size: 30px;
         }
 
         #greetingTwo {
-            padding-top: 0px;
-            font-size: 22px; /* */
-        }
-
-        #headshot {
-            width: 30%;
-        }
-
-        /*************************
-         * 07. Contact
-         *************************/
-        #contact {
-            height: auto;
-            min-height: 400px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 14px; /* */
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 17px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 20px;
-            font-size: 3em;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            font-size: 16px;
-        }
-
-    }
-
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- iPad/iPad Mini - Landscape ------------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 1024px) {
-
-         /*************************
-        * 00. Defaults
-        *************************/
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500; /* */
-            color: #58585a;
-            font-size: 32px; /* */
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 15%; /* */
-        }
-
-        .hr-icon {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 5%; /* */
-        }
-
-        /*************************
-        * 01. Hero
-        *************************/
-        #hero {
-            margin-top: 50px; /* */
-            margin-bottom: 120px;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500; /* */
-            color: #6f7983;
-            font-size: 16px; /* */
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 15px; /* */
-        }
-
-        #heroLogo {
-            width: 30%; /* */
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 10px 20px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 40px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 32px; /* */
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        #experience {
-            height: auto;
-            min-height: 500px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .experience-item {
-            color: #58585a;
-            padding: 0px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-            padding-top: 25px;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px; /* */
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px; /* */
-        }
-
-        .location {
-            text-align: center;
-            font-size: 13px; /* */
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 1em; /* */
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        /*************************
-        * 04. Skills
-        *************************/
-        #skillsWeb {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skillsDev {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skillsManagement {
-            padding-left: 210px;
-            padding-right: 210px;
-        }
-
-        #skills {
-            height: auto;
-            min-height: 1400px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        canvas {
-            width: 100% !important;
-            max-width: 500px; /* */
-            height: auto !important;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em; /* */
-        }
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #projects {
-            height: auto;
-            min-height: 1190px;
-            padding: 0px;
-            padding-top: 50px;
-        }
-
-        .project {
-            padding-left: 100px;
-            padding-right: 100px;
-            padding-bottom: 25px;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 500px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 500px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 480px 220px;
-        }
-
-        .item-work .info-work p {
-            font-size: 13px;
-            line-height: 100%;
-        }
-
-        .item-work .info-work h4 {
-            font-size: 16px;
-        }
-
-        .animation-elements-three {
-            width: 500px;
-            margin: auto;
-        }
-
-        /*************************
-        * 06. About Me
-        *************************/
-        #aboutMe {
-            height: auto;
-            min-height: 750px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
+          padding-top: 40px;
+          font-size: 30px;
         }
 
         #aboutMe p {
-            font-size: 16px; /* */
-            padding-left: 100px;
-            padding-right: 100px;
-        }
-
-        #greetingOne {
-            font-size: 24px; /* */
-            padding-top: 10px;
-        }
-
-        #greetingTwo {
-            padding-top: 10px;
-            font-size: 24px; /* */
-        }
-
-        #headshot {
-            width: 22%;
+          font-size: 15px;
         }
 
         /*************************
-         * 07. Contact
+         * 08. Contact
          *************************/
-        #contact {
-            height: auto;
-            min-height: 400px;
-            padding: 0px;
-            padding-top: 50px;
-            text-align: center;
-        }
-        .contact-info {
-            text-align: center;
-            font-size: 14px; /* */
-        }
+         #contactHr {
+           margin-bottom: 30px;
+         }
 
-        .contact-tag {
-            text-align: center;
-            font-size: 17px; /* */
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 1.5em; /* */
-        }
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 20px;
-            font-size: 3em;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            font-size: 16px;
-        }
-
-    }
-
-    /* ------------------------------------------------------------------------- */
-    /* -------------------- Large Devices (Wide Screens) ----------------------- */
-    /* ------------------------------------------------------------------------- */
-    @media only screen and (min-width : 1200px) {
-
-        .title {
-            font-family: 'Varela Round', sans-serif;
-            letter-spacing: 12px;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: #58585a;
-            font-size: 32px;
-        }
-
-        hr {
-            border: 0;
-            border-top: 5px solid #58585a;
-            width: 10%;
-        }
-
-        #hero {
-            margin-top: 50px;
-            width: 100%;
-            height: 100vh;
-        }
-
-        #resumeBtn {
-            text-decoration: none;
-            background: #58a4b0;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #4f939e;
-            -moz-box-shadow: 0px 3px 0px 0px #4f939e;
-            box-shadow: 0px 3px 0px 0px #4f939e;
-        }
-
-
-        #githubBtn {
-            text-decoration: none;
-            background: #373f51;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #262c38;
-            -moz-box-shadow: 0px 3px 0px 0px #262c38;
-            box-shadow: 0px 3px 0px 0px #262c38;
-        }
-
-
-        #linkedinBtn {
-            text-decoration: none;
-            background: #daa49a;
-            padding: 15px 40px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 60px 0 0;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #ae837b;
-            -moz-box-shadow: 0px 3px 0px 0px #ae837b;
-            box-shadow: 0px 3px 0px 0px #ae837b;
-        }
-
-        #downArrow {
-            text-decoration: none;
-            background: #a1a9b0;
-            padding: 10px 20px;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin: 20px 0 0;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 1.42857143;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -o-border-radius: 5px;
-            -webkit-box-shadow: 0px 3px 0px 0px #80878c;
-            -moz-box-shadow: 0px 3px 0px 0px #80878c;
-            box-shadow: 0px 3px 0px 0px #80878c;
-        }
-
-        #heroSubtitle {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 16px;
-        }
-
-        #heroDescription {
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 500;
-            color: #6f7983;
-            font-size: 14px;
-        }
-
-
-        #heroLogo {
-            width: 22%;
-        }
-
-        /*************************
-        * 02. Dividers
-        *************************/
-        .divider-title {
-            margin: 175px auto;
-            color: #fff;
-            font-size: 36px;
-        }
-
-        /*************************
-        * 03. Experience
-        *************************/
-        .experience-item {
-            color: #58585a;
-            padding: 25px;
-            height: 100%;
-            min-height: 300px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        #experience {
-            height: auto;
-            min-height: 530px;
-            padding: 50px;
-        }
-
-        #jpmIcon {
-            color: #373f51;
-            text-align: center;
-            font-size: 2em;
-        }
-
-        #ldIcon {
-            color: #58a4b0;
-            text-align: center;
-            font-size: 2em;
-        }
-
-        #usfIcon {
-            color: #daa49a;
-            text-align: center;
-            font-size: 2em;
-        }
-
-        #rjIcon {
-            color: #a1a9b0;
-            text-align: center;
-            font-size: 2em;
-        }
-
-        .company {
-            text-align: center;
-            font-size: 16px;
-        }
-
-        .position {
-            text-align: center;
-            font-style: italic;
-            font-size: 14px;
-        }
-
-        .marker {
-            text-align: center;
-            color: #58585a;
-            font-size: 12px;
-        }
-
-        .location {
-            text-align: center;
-            font-size: 12px;
-        }
-
-        /*************************
-        * 04. Skills
-        *************************/
-        #skills {
-            height: auto;
-            min-height: 550px;
-            padding: 50px;
-        }
-
-        #skillsWeb {
+           .contact-item {
             padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        #skillsDev {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        #skillsManagement {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        canvas {
-            width: 100% !important;
-            max-width: 300px;
-            height: auto !important;
-            padding-left: 50px;
-        }
-
-        #skillSetOne {
-            color: #373f51;
-            text-align: center;
-        }
-
-        #skillSetTwo {
-            color: #58a4b0;
-            text-align: center;
-        }
-
-        #skillSetThree {
-            color: #daa49a;
-            text-align: center;
-        }
-
-
-
-        /*************************
-        * 05. Projects
-        *************************/
-        #projects {
-            height: auto;
-            min-height: 600px;
-            padding: 50px;
-        }
-
-        .animation-elements-three {
-            width: auto;
-        }
-
-        #project1 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/search-the-stars.png");
-            background-size: 350px 190px;
-        }
-
-        #project2 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/minerals.png");
-            background-size: 350px 190px;
-        }
-
-        #project3 {
-            border: 3px solid #a1a9b0;
-            background: url("../img/student-loan-calculator.png");
-            background-size: 340px 190px;
-        }
-
-        .item-work .info-work p {
-            font-size: 13px;
-            line-height: 120%;
-
-        }
-
-        .item-work .info-work h4 {
-            font-size: 16px;
-
-        }
-
-        .project {
             padding-bottom: 0px;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
+          }
 
-         /*************************
-         * 06. About Me
-         *************************/
-        #aboutMe {
-            height: auto;
-            min-height: 550px;
-            padding: 50px;
-            text-align: center;
-        }
+          .contact-info {
+              font-size: 13px;
+          }
 
-        #aboutMe p {
-            font-size: 15px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
+          .contact-tag {
+              font-size: 15px;
+          }
+   }
 
-        #greetingOne {
-            font-size: 36px;
-            padding-top: 40px;
-        }
+   /* .......----------======================================----------........
+   =================  Medium Devices - 992px =====================
+   .......----------======================================----------........ */
+   @media only screen and (min-width : 992px) {
 
-        #greetingTwo {
-            font-size: 36px;
-            padding-top: 40px;
-        }
+   }
 
-        #headshot {
-            width: 65%;
-            padding-top: 40px;
-        }
+   /* .......----------======================================----------........
+   =================  Large Devices - 1200px =====================
+   .......----------======================================----------........ */
+   @media only screen and (min-width : 1200px) {
 
-        /*************************
-         * 07. Contact
-         *************************/
-        #contact {
-            height: auto;
-            min-height: 520px;
-            padding: 50px;
-            text-align: center;
-        }
-        .contact-item {
-            color: #58585a;
-            padding-top: 60px;
-            height: 100%;
-            min-height: 250px;
-            width: 100%;
-            max-width: 350px;
-        }
-
-        .contact-info {
-            text-align: center;
-            font-size: 15px;
-        }
-
-        .contact-tag {
-            text-align: center;
-            font-size: 18px;
-        }
-
-        #locationIcon {
-            color: #373f51;
-            text-align: center;
-        }
-
-        #emailIcon {
-            color: #58a4b0;
-            text-align: center;
-        }
-
-        #phoneIcon {
-            color: #daa49a;
-            text-align: center;
-        }
-
-
-        /*************************
-         * 08. Footer
-         *************************/
-        .social {
-            text-align: right;
-        }
-
-        .social-icons {
-            color: #a1a9b0;
-            margin-right: 20px;
-            font-size: 2em;
-        }
-
-        .copyright {
-            color: #a1a9b0;
-            text-align: left;
-        }
-
-
-    }
+   }

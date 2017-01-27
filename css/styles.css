@@ -269,38 +269,42 @@
    width: 100%;
  }
 
-  #jpm {
+ #experienceHr {
+   margin-bottom:70px;
+ }
+
+  #positionOne {
     animation-delay: 0.5s;
   }
 
-  #jpmIcon {
+  #positionOneIcon {
     color: #373f51;
     text-align: center;
   }
 
-  #ld {
+  #positionTwo {
     animation-delay: 1s;
   }
 
-  #ldIcon {
+  #positionTwoIcon {
     color: #58a4b0;
     text-align: center;
   }
 
-  #usf {
+  #positionThree {
     animation-delay: 1.5s;
   }
 
-  #usfIcon {
+  #positionThreeIcon {
     color: #daa49a;
     text-align: center;
   }
 
-  #rj {
+  #positionFour {
     animation-delay: 2s;
   }
 
-  #rjIcon {
+  #positionFourIcon {
     color: #a1a9b0;
     text-align: center;
   }
@@ -339,6 +343,10 @@
      min-height: 500px;
      padding: 50px;
      width: 100%;
+   }
+
+   #skillsHr {
+     margin-bottom:70px;
    }
 
   #skillSetOne {
@@ -382,6 +390,10 @@
      min-height: 600px;
      padding: 50px;
      width: 100%;
+   }
+
+   #projectsHr {
+     margin-bottom:70px;
    }
 
   .project-item {
@@ -509,6 +521,10 @@
      text-align: center;
    }
 
+   #aboutmeHr {
+     margin-bottom:50px;
+   }
+
   #greetingOne {
     padding-top: 20px;
     font-size: 30px;
@@ -547,6 +563,10 @@
      min-height: 430px;
      padding: 50px;
      width: 100%;
+   }
+
+   #contactHr {
+     margin-bottom:50px;
    }
 
   #locationIcon {

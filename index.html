@@ -31,6 +31,7 @@
 
       <!-- ======= Portfolio Styles =======-->
     <link type="text/css" rel="stylesheet" media="screen" href="css/styles.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="css/styles-responsive.css" />
 
     <!-- Javascript -->
       <!-- ======= JQuery =======-->
@@ -99,14 +100,14 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="animation-elements">
           <h1 style="margin-top:0px;" class="title text-center">Experience</h1>
-          <hr style="margin-bottom:70px;">
+          <hr id="experienceHr">
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-grow">
-        <div id="jpm" class="experience-item animation-elements">
-          <i id="jpmIcon" class="fa fa-credit-card center-block fa-2x"></i>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 hvr-grow">
+        <div id="positionOne" class="experience-item animation-elements">
+          <i id="positionOneIcon" class="fa fa-credit-card center-block fa-2x"></i>
           <hr class="hr-icon"/>
           <h4 class="company">JPMorgan <br/>Chase &amp; Co.</h4>
           <h5 class="position">Software Engineer</h5>
@@ -115,9 +116,9 @@
           <h5 class="location">Tampa, FL</h5>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-grow">
-        <div id="ld" class="experience-item animation-elements">
-          <i id="ldIcon" class="fa fa-money center-block fa-2x"></i>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 hvr-grow">
+        <div id="positionTwo" class="experience-item animation-elements">
+          <i id="positionTwoIcon" class="fa fa-money center-block fa-2x"></i>
           <hr class="hr-icon"/>
 					<h4 class="company">JPMorgan <br/>Chase &amp; Co.</h4>
           <h5 class="position">Technology Analyst Intern</h5>
@@ -126,9 +127,9 @@
           <h5 class="location">Tampa, FL</h5>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-grow">
-        <div id="usf" class="experience-item animation-elements">
-          <i id="usfIcon" class="fa fa-hospital-o center-block fa-2x"></i>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 hvr-grow">
+        <div id="positionThree" class="experience-item animation-elements">
+          <i id="positionThreeIcon" class="fa fa-hospital-o center-block fa-2x"></i>
           <hr class="hr-icon"/>
 					<h4 class="company">LeapDoctor</h4>
           <h6 class="position">(USF BEST Project)</h6>
@@ -138,9 +139,9 @@
           <h5 class="location">Tampa, FL</h5>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-grow">
-        <div id="rj" class="experience-item animation-elements">
-          <i id="rjIcon" class="fa fa-university center-block fa-2x"></i>
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 hvr-grow">
+        <div id="positionFour" class="experience-item animation-elements">
+          <i id="positionFourIcon" class="fa fa-university center-block fa-2x"></i>
           <hr class="hr-icon"/>
           <h4 class="company">University of <br/>South Florida</h4>
           <h5 class="position">Web Developer Assistant</h5>
@@ -172,7 +173,7 @@
 	   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	     <div class="animation-elements">
 	       <h1 style="margin-top:0px;" class="title text-center">Skills</h1>
-	       <hr style="margin-bottom:70px;">
+	       <hr id="skillsHr">
 	     </div>
 	   </div>
 	 </div>
@@ -210,8 +211,8 @@
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 	         <h1 class="divider-title">“Design is not just what it looks like and feels like. <br />Design is how it works.”
-	             <br />
-	             <span style="color:#58a4b0;">Steve Jobs</span>
+             <br />
+             <span style="color:#58a4b0;">Steve Jobs</span>
 	         </h1>
        </div>
      </div>
@@ -224,7 +225,7 @@
 	     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	       <div class="animation-elements">
 	         <h1 style="margin-top:0px;" class="title text-center">Projects</h1>
-	         <hr style="margin-bottom:70px;">
+	         <hr id="projectsHr">
 	       </div>
 	     </div>
 	   </div>
@@ -349,7 +350,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="animation-elements">
           <h1 style="margin-top:0px;" class="title text-center">About Me</h1>
-          <hr style="margin-bottom:50px;">
+          <hr id="aboutmeHr">
         </div>
       </div>
     </div>
@@ -394,12 +395,12 @@
 		  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		    <div class="animation-elements">
 		      <h1 style="margin-top:0px;" class="title text-center">Contact</h1>
-		      <hr style="margin-bottom:50px;">
+		      <hr id="contactHr">
 		    </div>
 		  </div>
 		</div>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="contact-item center-block hvr-grow">
           <div id="location" class="animation-elements">
             <i id="locationIcon" class="fa fa-location-arrow center-block fa-2x"></i>
@@ -410,7 +411,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="contact-item center-block hvr-grow">
           <div id="email" class="animation-elements">
             <i id="emailIcon" class="fa fa-envelope-o center-block fa-2x"></i>
@@ -421,7 +422,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="contact-item center-block hvr-grow">
           <div id="phone" class="animation-elements">
             <i id="phoneIcon" class="fa fa-phone center-block fa-2x"></i>
