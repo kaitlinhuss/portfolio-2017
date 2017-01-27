@@ -255,11 +255,12 @@ hr {
 /*************************
  * 03. Experience
  *************************/
-#experience {
-  width: 100%;
-  min-height: 500px;
-}
 
+#experience {
+    height: auto;
+    min-height: 530px;
+    width: 100%;
+}
 
 #jpm {
     animation-delay: 0.5s;
