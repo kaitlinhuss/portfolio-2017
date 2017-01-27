@@ -1,27 +1,26 @@
 # **WELCOME.** #
 
-This is my first portfolio website. 
+First portfolio website. 
 
-* Last modified: November 20th, 2016.
+* Last modified: January 26th, 2017
 * URL: http://kiddography.com/
-
+* Languages: HTML, CSS, JavaScript, JQuery
+* Frameworks: Bootstrap v.3.3.6
 
 ## **SOURCES** ##
 
 ### CSS: ###
-* [Bootstrap](http://getbootstrap.com/) - 3.3.6
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Hover.css](http://ianlunn.github.io/Hover/) - v2
+* [Bootstrap](http://getbootstrap.com/) - v3.3.6 © 2011-2016 Twitter, Inc.
+* [Animate.css](https://daneden.github.io/animate.css/) - v2.1.1 © 2013 Daniel Eden
+* [Hover.css](http://ianlunn.github.io/Hover/) - v2.1.0 © 2014 Ian Lunn 
 
 ### JavaScript: ###
-* [JQuery](https://jquery.com/) - 2.2.3
-* [Chart.js](http://www.chartjs.org/) 
-* [Isotope](http://isotope.metafizzy.co/) - v1.5.25
-* [JQuery Waypoints](http://imakewebthings.com/waypoints/) - v2.0.3
-* [Smooth Scrolling](https://css-tricks.com/snippets/jquery/smooth-scrolling/) - CSS-Tricks
-* [Back to Top](http://www.codexworld.com/back-to-top-button-using-jquery-css/) - CodexWorld
+* [JQuery](https://jquery.com/) - v2.2.3 © JS Foundation
+* [JQuery Waypoints](http://imakewebthings.com/waypoints/) - v2.0.3 © I Make Web Things
+* [Smooth Scrolling](https://css-tricks.com/snippets/jquery/smooth-scrolling/) - © 01.31.2016 CSS-Tricks (Chris Coyier)
+* [Back to Top Scrolling](http://www.codexworld.com/back-to-top-button-using-jquery-css/) - © 04.27.2016 CodexWorld
+* [Chart.js](http://www.chartjs.org/) © Chart.js
 
 ## **PENDING** ##
 
-* Fix media queries. 
-* Fix class/id names. 
+* Fix media queries.
