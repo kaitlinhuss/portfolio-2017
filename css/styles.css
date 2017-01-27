@@ -220,31 +220,31 @@ hr {
 #dividerOne {
     height: auto;
     min-height: 500px;
-    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero2.jpg") center no-repeat fixed;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero2.jpg") center no-repeat fixed;
 }
 
 #dividerTwo {
     height: auto;
     min-height: 500px;
-    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero3.jpg") center no-repeat fixed;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero3.jpg") center no-repeat fixed;
 }
 
 #dividerThree {
     height: auto;
     min-height: 500px;
-    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero.jpg") center no-repeat fixed;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero.jpg") center no-repeat fixed;
 }
 
 #dividerFour {
     height: auto;
     min-height: 500px;
-    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero4.jpg") center no-repeat fixed;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero4.jpg") center no-repeat fixed;
 }
 
 #dividerFive {
     height: auto;
     min-height: 500px;
-    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../images/hero5.png") center no-repeat fixed;
+    background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero5.png") center no-repeat fixed;
 }
 
 .divider-title {
@@ -400,7 +400,7 @@ canvas {
 
 #project1 {
     border: 3px solid #a1a9b0;
-    background: url("../images/search-the-stars.png");
+    background: url("../img/search-the-stars.png");
     background-size: 370px 190px;
 }
 
@@ -410,7 +410,7 @@ canvas {
 
 #project2 {
     border: 3px solid #a1a9b0;
-    background: url("../images/minerals.png");
+    background: url("../img/minerals.png");
     background-size: 400px 190px;
 }
 
@@ -420,7 +420,7 @@ canvas {
 
 #project3 {
     border: 3px solid #a1a9b0;
-    background: url("../images/portfolio.png");
+    background: url("../img/portfolio.png");
     background-size: 380px 190px;
 }
 
