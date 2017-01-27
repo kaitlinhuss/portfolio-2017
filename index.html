@@ -17,7 +17,8 @@
 
     <!-- Custom fonts -->
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
-    <link type="text/css" rel="stylesheet" href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
     <!-- CSS -->
       <!-- ======= Bootstrap =======-->
@@ -37,6 +38,12 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 
       <!-- ======= Scrolling =======-->
     <script type="text/javascript" src="js/smooth-scrolling.js"></script>
@@ -234,16 +241,21 @@
                                  <a href="http://kiddography.com/projects/stars-app/client.html" target="_blank">
                                      <div id="project1" class="img-responsive">
                                          <div id="overlay">
-                                             <span id="view"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                             <span id="view">
+																							 <i class="fa fa-search" aria-hidden="true"></i>
+																						 </span>
                                          </div>
                                      </div>
                                  </a>
                                  <div class="info-work">
                                      <h4>Search the Stars</h4>
-                                     <p>Simple app that demonstrates the interaction between client and server built with Ajax, PHP and JQuery.</p>
+                                     <p>App that demonstrates the interaction between client and server built with Ajax, PHP and JQuery.</p>
                                      <div class="icons-work">
-                                         <i class="fa fa-tablet" data-toggle="tooltip" title data-original-title="Responsive"></i>
-                                         <a href="https://github.com/kkiddography/search-the-stars" target="_blank"><i class="fa fa-github" data-toggle="tooltip" title data-original-title="Github"></i></a>
+                                         <i class="devicon-jquery-plain" data-toggle="tooltip" data-placement="bottom" title="JQuery"></i>
+																				 <i class="devicon-php-plain" data-toggle="tooltip" data-placement="bottom" title="PHP"></i>
+																				 <a href="https://github.com/kkiddography/search-the-stars" target="_blank">
+																					 <i style="color: #58a4b0;" class="devicon-github-plain" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i>
+																				 </a>
                                      </div>
                                  </div>
                              </div>
@@ -261,16 +273,22 @@
                                  <a href="http://kiddography.com/projects/minerals-app/client.html" target="_blank">
                                      <div id="project2" class="img-responsive">
                                          <div id="overlay">
-                                             <span id="view"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                             <span id="view">
+																							 <i class="fa fa-search" aria-hidden="true"></i>
+																						 </span>
                                          </div>
                                      </div>
                                  </a>
                                  <div class="info-work">
                                      <h4>(Mi)nerals<sub>2</sub></h4>
-                                     <p id="test">App that demonstrates how PHP can interact with a MySQL DB with the help of Ajax and JQuery.</p>
+                                     <p id="test">App that demonstrates how PHP can interact with a MySQL database with the help of Ajax and JQuery.</p>
                                      <div class="icons-work">
-                                       <i class="fa fa-tablet" data-toggle="tooltip" title data-original-title="Responsive"></i>
-                                       <a href="https://github.com/kkiddography/-mi-nerals" target="_blank"><i class="fa fa-github" data-toggle="tooltip" title data-original-title="Github"></i></a>
+																			 <i class="devicon-jquery-plain" data-toggle="tooltip" data-placement="bottom" title="JQuery"></i>
+																			<i class="devicon-php-plain" data-toggle="tooltip" data-placement="bottom" title="PHP"></i>
+																			<i class="devicon-mysql-plain" data-toggle="tooltip" data-placement="bottom" title="MySQL"></i>
+																			<a href="https://github.com/kkiddography/-mi-nerals" target="_blank">
+																				<i style="color: #58a4b0;" class="devicon-github-plain" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i>
+																			</a>
                                      </div>
                                  </div>
                              </div>
@@ -285,20 +303,24 @@
                      <div>
                          <div class="tooltip-hover">
                              <div class="item-work">
-                                 <a href="http://kiddography.com/" target="_blank">
+                                 <a href="http://kiddography.com/projects/loans/index.html#/monthlyPayment" target="_blank">
                                      <div id="project3" class="img-responsive">
                                          <div id="overlay">
-                                             <span id="view"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                             <span id="view">
+																							 <i class="fa fa-search" aria-hidden="true"></i>
+																						 </span>
                                          </div>
                                      </div>
                                  </a>
                                  <div class="info-work">
-                                     <h4>Parallax Website Portfolio - 2016</h4>
-                                     <p>One page parallax portfolio built with Bootstrap, Chart.js, Animate.css and Hover.css </p>
+                                     <h4>Student Loan Calculator</h4>
+                                     <p>Single page web app that calculates repayment options for student loans using AngularJS.</p>
                                      <div class="icons-work">
-                                         <i class="fa fa-tablet" data-toggle="tooltip" title data-original-title="Responsive"></i>
-                                         <i class="fa fa-bars" data-toggle="tooltip" title data-original-title="Parallax"></i>
-                                         <a href="https://github.com/kkiddography/portfolio" target="_blank"><i class="fa fa-github" data-toggle="tooltip" title data-original-title="Github"></i></a>
+																			 <i class="devicon-jquery-plain" data-toggle="tooltip" data-placement="bottom" title="JQuery"></i>
+ 																		 	<i class="devicon-angularjs-plain" data-toggle="tooltip" data-placement="bottom" title="MySQL"></i>
+ 																		 	<a href="https://github.com/kkiddography/loan-repayment" target="_blank">
+ 																			 <i style="color: #58a4b0;" class="devicon-github-plain" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i>
+ 																		 </a>
                                      </div>
                                  </div>
                              </div>
