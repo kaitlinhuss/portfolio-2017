@@ -26,50 +26,6 @@
 
 $(document).ready(function() {
 
-    /* Waypoints */
-
-    /* Experience */
-    $('.wp0').waypoint(function() { $('.wp0').addClass('animated fadeInDown'); }, { offset: '100%' });
-    $('.wp1').waypoint(function() { $('.wp1').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp2').waypoint(function() { $('.wp2').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp3').waypoint(function() { $('.wp3').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp4').waypoint(function() { $('.wp4').addClass('animated fadeInUp'); }, { offset: '100%' });
-
-    /* Skills */
-    $('.wp5').waypoint(function() { $('.wp5').addClass('animated fadeInDown'); }, { offset: '100%' });
-    $('.wp6').waypoint(function() { $('.wp6').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp7').waypoint(function() { $('.wp7').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp8').waypoint(function() { $('.wp8').addClass('animated fadeInUp'); }, { offset: '100%' });
-
-    /* About Me */
-     $('.wp9').waypoint(function() { $('.wp9').addClass('animated fadeInDown'); }, { offset: '100%' });
-     $('.wp10').waypoint(function() { $('.wp10').addClass('animated fadeInUp'); }, { offset: '100%' });
-     $('.wp11').waypoint(function() { $('.wp11').addClass('animated fadeInUp'); }, { offset: '100%' });
-
-    /* Contact */
-    $('.wp12').waypoint(function() { $('.wp12').addClass('animated fadeInDown'); }, { offset: '100%' });
-    $('.wp13').waypoint(function() { $('.wp13').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp14').waypoint(function() { $('.wp14').addClass('animated fadeInUp'); }, { offset: '100%' });
-    $('.wp15').waypoint(function() { $('.wp15').addClass('animated fadeInUp'); }, { offset: '100%' });
-
-    /* Fancy Box */
-    $(".fancybox").fancybox({
-        openEffect  : 'elastic',
-        closeEffect : 'elastic',
-
-        helpers : {
-            title : {
-                type : 'inside'
-            }
-        }
-    });
-
-    /* Tool Tip Hover */
-    $('.tooltip-hover').tooltip({
-        selector: "[data-toggle=tooltip]",
-        container: "body"
-    });
-
     /* Scroll Effects: FadeIn Down
      * Section: Experience
      * Source: Animate.css - https://daneden.github.io/animate.css/
@@ -142,35 +98,4 @@ $(document).ready(function() {
             }
         });
     });
-
-    /* Projects Filter
-     * Source: Isotope Filtering - http://isotope.metafizzy.co/
-     */
-    $(window).load(function(){
-        var $container = $('.projects-container');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-
-        $('.projects-filter a').click(function(){
-            $('.projects-filter .current').removeClass('current');
-            $(this).addClass('current');
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
-    });
-
 });
