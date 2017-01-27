@@ -2,7 +2,7 @@
 
 First portfolio website. 
 
-* Last modified: January 26th, 2017
+* Last modified: January 27th, 2017
 * URL: http://kiddography.com/
 * Languages: HTML, CSS, JavaScript, JQuery
 * Frameworks: Bootstrap v.3.3.6
@@ -23,4 +23,4 @@ First portfolio website.
 
 ## **PENDING** ##
 
-* Fix media queries.
+* ~~Fix media queries.~~
