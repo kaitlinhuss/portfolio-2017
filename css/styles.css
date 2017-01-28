@@ -698,10 +698,10 @@
       -webkit-animation-delay: 0.5s;
   }
 
-  .animation-elements{
-      opacity: 0;
+  .animation-elements {
+    opacity: 0;
   }
 
-  .animation-elements-two{
+  .animation-elements-two {
       opacity: 0;
   }

@@ -38,6 +38,7 @@
  * Small Devices - 768px
  * Medium Devices - 992px
  * Large Devices - 1200px
+* Extra Large Devices - 1366px
  */
 /* ----------========= Mobile First Method =========----- */
 /* .......----------======================================----------........
@@ -939,6 +940,209 @@
           .contact-tag {
               font-size: 16px;
           }
+   }
 
+   /* .......----------======================================----------........
+   =============  Extra Large Devices - 1366px =====================
+   .......----------======================================----------........ */
+   @media only screen and (min-width : 1366px) {
+     /*************************
+      * 01. Universal
+      *************************/
+       .title {
+         font-size: 36px;
+         font-weight: 500;
+       }
 
+       /*************************
+    * 02. Hero
+    *************************/
+    #heroLogo {
+      width: 28%;
+      padding-top: 40px;
+    }
+
+    #hero .title {
+      font-size: 38px;
+      font-weight: 500;
+    }
+
+    #heroSubtitle {
+      font-size: 20px;
+    }
+
+    #heroDescription {
+      font-size: 16px;
+    }
+
+    #githubBtn {
+      padding: 18px 44px;
+    }
+
+    #resumeBtn {
+      padding: 18px 44px;
+    }
+
+    #linkedinBtn {
+      padding: 18px 44px;
+    }
+
+    /*************************
+     * 03. Dividers
+     *************************/
+      .divider-title {
+        margin: 175px auto;
+        color: #fff;
+        width: 100%;
+        font-size: 36px;
+      }
+
+      #dividerThree {
+        background: linear-gradient(rgba(55, 63, 81, 0.9), rgba(55, 63, 81, 0.9)), url("../img/hero.jpg") center no-repeat fixed;
+      }
+
+      /*************************
+       * 04. Experience
+       *************************/
+       #experienceHr {
+         padding-bottom: 50px;
+       }
+
+       #experience h4 {
+         font-size: 17px;
+       }
+
+       #experience h5 {
+         font-size: 15px;
+       }
+
+       #experience h6 {
+         font-size: 13px;
+       }
+
+       #positionOne {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionTwo {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionThree {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       #positionFour {
+         padding-left: 0px;
+         font-size: 18px;
+       }
+
+       /*************************
+        * 05. Skills
+        *************************/
+        #skillsHr {
+          margin-bottom: 70px;
+        }
+
+        #skills h6 {
+          font-size: 17px;
+        }
+
+         #setOne {
+          margin-left: 45px;
+        }
+
+        #setTwo {
+          margin-left: 45px;
+        }
+
+        #setThree {
+          margin-left: 45px;
+        }
+
+        /*************************
+        * 06. Projects
+        *************************/
+        #projectsHr {
+          margin-bottom: 70px;
+        }
+
+        #projects h4 {
+          font-size: 16px;
+        }
+
+        #projects p {
+          font-size: 12px;
+        }
+
+        .project-item {
+         padding-bottom: 20px;
+       }
+
+       #project1 {
+         background-size: 400px 200px;
+       }
+
+       #project2 {
+         background-size: 400px 200px;
+       }
+
+       #project3 {
+         background-size: 400px 200px;
+       }
+
+       /*************************
+        * 07. About Me
+        *************************/
+        #aboutmeHr {
+          margin-bottom: 0px;
+        }
+
+        #headshot {
+          width: 80%;
+          padding-top: 30px;
+        }
+
+        #greetingOne {
+          padding-top: 20px;
+          font-size: 30px;
+        }
+
+        #greetingTwo {
+          padding-top: 40px;
+          font-size: 30px;
+        }
+
+        #aboutMe p {
+          font-size: 15px;
+        }
+
+        /*************************
+         * 08. Contact
+         *************************/
+         #contactHr {
+           margin-bottom: 30px;
+         }
+
+           .contact-item {
+            padding-left: 0px;
+            padding-bottom: 0px;
+          }
+
+          .contact-info {
+              font-size: 14px;
+          }
+
+          .contact-tag {
+              font-size: 16px;
+          }
+
+          #contact .animation-elements {
+            opacity: 1;
+            animation-delay: 0.5s;
+            -webkit-animation-delay: 0.5s;
+          }
    }
