@@ -143,7 +143,7 @@ var setOneData = {
 		{
 			fillColor : "#373f51",
 			strokeColor : "#373f51",
-			data : [90, 80, 65, 60, 50, 50, 40, 60]
+			data : [90, 80, 65, 60, 50, 50, 50, 75]
 		}
 	]
 }
