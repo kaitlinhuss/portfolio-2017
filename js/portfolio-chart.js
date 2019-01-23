@@ -133,17 +133,16 @@ var setOneData = {
 		"HTML",
 		"CSS",
 		"JavaScript",
-		"JQuery",
-		"AJAX",
 		"PHP",
 		"SQL",
-		"Java"
+		"Java",
+		"Groovy"
 	],
 	datasets : [
 		{
 			fillColor : "#373f51",
 			strokeColor : "#373f51",
-			data : [90, 80, 65, 60, 50, 50, 50, 75]
+			data : [90, 80, 75, 50, 60, 75, 30]
 		}
 	]
 }
@@ -264,17 +263,18 @@ var setTwoOptions = {
 // [02.] Data
 var setTwoData = {
 	labels : [
-		"Bootstrap",
 		"AngularJS",
 		"Spring",
-		"Photoshop",
-		"Illustrator"
+		"JUnit",
+		"Jasmine",
+		"Gatsby",
+		"React"
 	],
 	datasets : [
 		{
 			fillColor : "#58a4b0",
 			strokeColor : "#58a4b0",
-			data : [80, 40, 40, 70, 60]
+			data : [65, 55, 40, 40, 20,20]
 		}
 	]
 }
@@ -396,16 +396,18 @@ var setThreeOptions = {
 var setThreeData = {
 	labels : [
 		"Git",
-		"SourceTree",
-		"Slack",
+		"Jenkins",
 		"Confluence",
-		"MySQL"
+		"Bitbucket",
+		"JIRA",
+		"Putty",
+		"IntelliJ"
 	],
 	datasets : [
 		{
 			fillColor : "#daa49a",
 			strokeColor : "#daa49a",
-			data : [60, 70, 50, 50, 40]
+			data : [75,55,85,75,85,55,70]
 		}
 	]
 }
